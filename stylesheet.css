@@ -126,6 +126,42 @@ a:hover {
   font-size: 40px;
 }
 
+/* Style for the table container */
+.table-container {
+  overflow-x: auto; /* Enables horizontal scrolling for small screens */
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Remove borders and adjust padding for cleaner look */
+td {
+  padding: 8px 12px;
+  font-family: montserrat, sans-serif;
+  color: #ffffff8a;
+  font-size: medium;
+  vertical-align: top; /* Align content to the top for better readability */
+}
+
+/* Header cells styling */
+.table-header {
+  font-weight: bold;
+  white-space: nowrap; /* Prevents breaking of header text */
+  text-align: left; /* Align header text to the left */
+}
+
+/* Responsive font size for smaller screens */
+@media (max-width: 768px) {
+  td {
+      font-size: small;
+  }
+}
+
+
 .header .description .about {
   font-family: montserrat, sans-serif;
   font-size: 28px;
