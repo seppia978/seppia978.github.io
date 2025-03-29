@@ -179,6 +179,64 @@
 
         <hr>
 
+        <div class="paper">
+            <div class="img_default">
+                <img 
+                    src="images/safe-clip/safe_clip_static_image.png" 
+                    onmouseover="this.src='images/safe-clip/paper_gif_2.gif'; this.style.width='75%';" 
+                    onmouseout="this.src='images/safe-clip/safe_clip_static_image.png'; this.style.width='100%';" 
+                    width="100%"
+                >
+            </div>
+            <!-- <div class="img_default">
+                <img src='images/safe-clip/model.png'>
+            </div> -->
+            <div class="description">
+                <p class="pub-descr">
+                    <a href="https://iris.unimore.it/handle/11380/1344346" class="title" target="_blank"><papertitle>Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Modelss</papertitle></a>
+                </p>
+                <p class="pub-descr">
+                    <strong><a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=134" target="_blank">Samuele Poppi*</a></strong>,
+                    <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=182" target="_blank">Tobia Poppi*</a>,
+                    <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=171" target="_blank">Federico Cocchi*</a>,
+                    <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=90" target="_blank">Marcella Cornia</a>
+                    <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=82" target="_blank">Lorenzo Baraldi</a>
+                    <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1" target="_blank">Rita Cucchiara</a>
+                </p>
+                <p class="pub-descr">
+                    <em>European Conference on Computer Vision, Milano 2024</em> - <strong style="color: green">Poster</strong>
+                </p>
+                <p class="pub-descr">
+                    <a href="https://aimagelab.github.io/safe-clip/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="vertical-align: middle;" viewBox="0 0 16 16">
+                            <path d="M10.854 5.646a.5.5 0 0 0-.708-.708l-4.5 4.5a.5.5 0 0 0 .708.708l4.5-4.5z"/>
+                            <path d="M6.854 5.146a.5.5 0 1 1 .708.708l-4.5 4.5a.5.5 0 0 1-.708-.708l4.5-4.5z"/>
+                        </svg> Project Page
+                    </a> &nbsp|&nbsp
+                    <a href="https://huggingface.co/collections/aimagelab/safe-clip-668d0a0ca697b69d66433338" target="_blank">
+                        🤗 Hugging Face
+                    </a> &nbsp|&nbsp
+                    <a href="https://github.com/aimagelab/safeclip" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16" fill="currentColor" style="vertical-align: middle;">
+                            <path d="M8 0C3.58 0 0 3.58 0 8a8.002 8.002 0 005.47 7.59c.4.074.547-.174.547-.386v-1.39c-2.226.485-2.695-1.073-2.695-1.073-.364-.923-.89-1.169-.89-1.169-.727-.497.055-.487.055-.487.803.056 1.226.826 1.226.826.715 1.223 1.873.87 2.33.665.072-.517.279-.87.508-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.824-2.146-.083-.202-.357-1.017.077-2.12 0 0 .672-.215 2.2.82A7.668 7.668 0 018 4.697c.68.003 1.362.092 2 .269 1.528-1.035 2.2-.82 2.2-.82.435 1.104.161 1.918.08 2.12.513.56.823 1.273.823 2.146 0 3.073-1.87 3.75-3.653 3.947.286.247.54.735.54 1.481v2.194c0 .214.145.465.553.385A8.002 8.002 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg> GitHub
+                    </a> &nbsp|&nbsp
+                    <a href="https://iris.unimore.it/handle/11380/1344346" target="_blank">
+                        📝 arXiv
+                    </a> &nbsp|&nbsp
+                    <a href="biblio/safeclip.bib" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="vertical-align: middle;" viewBox="0 0 16 16">
+                            <path d="M2 2.5v11a.5.5 0 0 0 .5.5H13a.5.5 0 0 0 .5-.5v-11a.5.5 0 0 0-.5-.5H2.5a.5.5 0 0 0-.5.5zm2 0a.5.5 0 0 0-.5-.5h-1v11h1a.5.5 0 0 0 .5-.5v-11zM5 3h5v2H5V3zm1 3h3v7H6V6z"/>
+                        </svg> bibtex
+                    </a>
+                </p>                             
+                                
+                <p align="justify">We tackle toxicity in generative AI by aligning CLIP encoders with safety standards. We generate the the <strong>ViSU dataset</strong>, obtained by jailbreaking LLaMA2-7B-Chat, and it pairs quadruplets of safe and NSFW image-text examples. Leveraging the power of ViSU, Safe-CLIP applies knowledge editing techniques to remove unsafe associations in CLIP’s embeddings, thus ensuring outputs remain safe even with NSFW inputs, advancing responsible multimodal AI. These safe encoders can be attached and detached from any generation pipeline, due to their modularity.</p>
+            </div>
+        </div>
+
+        <hr>
+
         <!-- <div class="paper">
             <div class="img_default">
                 <img src='images/mcmr.svg'>
