@@ -12,7 +12,7 @@ address:
   postcode: '56126'
   country: Italy
 
-summary: Attacks and Defences for single- and multi-modal models.
+summary: Attacks and defences for single- and multi-modal models.
 abstract: 'As generative AI systems grow in complexity and adoption, ensuring their safety and alignment becomes both more critical and more challenging. This talk explores the fragility of modern AI models—from text-only large language models (LLMs) to multimodal architectures—when exposed to adversarial manipulation. We begin by examining redteaming techniques that reveal how easily current LLMs can be jailbroken through methods such as prompt injection, character roleplay, and fine-tuning attacks. We then present recent findings showing that multilingual safety alignment can be compromised even by monolingual fine-tuning, highlighting the presence of language-agnostic safety parameters. To investigate this phenomenon, we introduce Safety Information Localization (SIL), a method to identify and manipulate the minimal set of parameters encoding safety-critical behavior. Finally, we transition to multimodal models and demonstrate Safe-CLIP, a framework that directly edits the CLIP embedding space to suppress harmful visual-textual associations. Together, these insights suggest that model safety must be embedded at a fundamental level—across languages, modalities, and representations—to ensure robust and responsible AI systems.'
 
 # Talk start and end times.
