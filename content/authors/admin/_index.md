@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ph.D.
+title: Samuele Poppi
 
 # Name pronunciation (optional)
 name_pronunciation: Samuele Poppi
