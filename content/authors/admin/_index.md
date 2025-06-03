@@ -2,8 +2,8 @@
 # Display name
 title: Samuele Poppi
 
-# Name pronunciation (optional)
-name_pronunciation: Samuele Poppi
+# # Name pronunciation (optional)
+# name_pronunciation: Samuele Poppi
 
 # Full name (for SEO)
 first_name: Samuele
