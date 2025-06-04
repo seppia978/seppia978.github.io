@@ -35,9 +35,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Hi, I’m Samuele Poppi! I recently completed a Ph.D. in Artificial Intelligence through the Universities of Pisa and Modena, where I focused on making AI systems safer and more responsible—especially when it comes to vision and language. My research touches on areas like explainable AI, machine unlearning, and stress-testing multimodal models to uncover and fix their safety weaknesses.
+        Hi, I’m Samuele Poppi! I recently completed a Ph.D. in Artificial Intelligence through the Universities of Pisa and Modena, where I focused on making AI systems safer and more responsible—with a focus on vision and language. My research touches on areas like explainable AI, machine unlearning, and red- and blue-teming of models.
 
-I had the chance to join Meta’s GenAI team for a research internship, working on large language model safety and red teaming, guided by Cristian Canton Ferrer and Jianfeng Chi. These days, I’m actively collaborating with international teams on several projects around AI safety, always curious to explore new challenges and keep learning.
+        I had the chance to join Meta’s GenAI team for a research internship, working on large language model safety and red teaming, guided by Cristian Canton Ferrer and Jianfeng Chi. These days, I’m actively collaborating with international teams on several projects around AI safety, always curious to explore new challenges and keep learning.\
+
+        Feel free to drop me an email for information/collaborations!
     design:
       columns: '1'
   - block: collection
