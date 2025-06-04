@@ -35,11 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Hi, I’m Samuele Poppi! I recently completed a Ph.D. in Artificial Intelligence through the Universities of Pisa and Modena, where I focused on making AI systems safer and more responsible—especially when it comes to vision and language. My research touches on areas like explainable AI, machine unlearning, and stress-testing multimodal models to uncover and fix their safety weaknesses.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+I had the chance to join Meta’s GenAI team for a research internship, working on large language model safety and red teaming, guided by Cristian Canton Ferrer and Jianfeng Chi. These days, I’m actively collaborating with international teams on several projects around AI safety, always curious to explore new challenges and keep learning.
     design:
       columns: '1'
   - block: collection
