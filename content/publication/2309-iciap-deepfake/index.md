@@ -6,10 +6,10 @@ title: 'Unveiling the Impact of Image Transformations on Deepfake Detection: An 
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Federico Cocchi
-  - Lorenzo Baraldi*
+  - Lorenzo Baraldi1
   - admin
   - Marcella Cornia
-  - Lorenzo Baraldi'
+  - Lorenzo Baraldi
   - Rita Cucchiara
 
 # Author notes (optional)
