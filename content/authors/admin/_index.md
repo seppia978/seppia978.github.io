@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: AI Safety Researcher
+role: Postdoctoral Associate - AI Safety
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: TBA
-    url: None
+  - name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+    url: https://mbzuai.ac.ae/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
