@@ -48,10 +48,10 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/pdf/2311.16254'
-url_code: 'https://github.com/aimagelab/safe-clip'
-url_dataset: 'https://huggingface.co/datasets/aimagelab/ViSU-Text'
-url_poster: ''
-url_project: 'https://aimagelab.github.io/safe-clip/'
+# url_code: 'https://github.com/aimagelab/safe-clip'
+# url_dataset: 'https://huggingface.co/datasets/aimagelab/ViSU-Text'
+# url_poster: ''
+# url_project: 'https://aimagelab.github.io/safe-clip/'
 url_slides: ''
 # url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_video: 'https://youtube.com'
