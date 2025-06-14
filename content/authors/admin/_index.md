@@ -173,4 +173,8 @@ awards:
 
 ## About Me
 
-Samuele Poppi holds a Ph.D. in Artificial Intelligence from the Universities of Pisa and Modena, with a specialization in Responsible and Safe AI for Vision and Language. His research spans explainable AI (XAI), machine unlearning, and red- and blue-teaming of multimodal models, with a strong focus on identifying and mitigating safety vulnerabilities of AI systems across different domains. He completed a research internship at Meta GenAI, where he worked on LLM safety and red teaming under the mentorship of **Cristian Canton Ferrer** and **Jianfeng Chi**. He is actively involved in international collaborations on multiple projects related to AI Safety.
+Hi! I’m Samuele Poppi, a Postdoctoral Associate at MBZUAI. I hold a Ph.D. in AI from the Universities of Pisa and Modena, where I focused on Responsible and Safe AI for vision and language.
+
+My work spans explainable AI, machine unlearning, and safety testing (red- and blue-teaming) of LLMs and multimodal models. During a research internship at Meta GenAI, I worked on LLM safety with mentors like **Cristian Canton Ferrer** and **Jianfeng Chi**. I'm now collaborating internationally on projects aimed at making AI systems more secure and trustworthy.
+
+Feel free to drop me an e-mail for any communication!
