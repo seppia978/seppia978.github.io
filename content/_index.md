@@ -30,16 +30,16 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Hi, I’m Samuele Poppi! I hold a Ph.D. in AI from the Universities of Pisa and Modena, where I focused on responsible and safe AI for vision and language. My work spans explainable AI, machine unlearning, and testing AI systems for safety flaws. I also interned at Meta GenAI, working on LLM safety, and I’m currently involved in several international projects on AI safety.
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       Hi, I’m Samuele Poppi! I hold a Ph.D. in AI from the Universities of Pisa and Modena, where I focused on responsible and safe AI for vision and language. My work spans explainable AI, machine unlearning, and testing AI systems for safety flaws. I also interned at Meta GenAI, working on LLM safety, and I’m currently involved in several international projects on AI safety.
 
-        Feel free to drop me an e-mail for any communication!
-    design:
-      columns: '1'
+  #       Feel free to drop me an e-mail for any communication!
+  #   design:
+  #     columns: '1'
   - block: collection
     id: papers
     content:

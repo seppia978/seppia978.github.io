@@ -175,8 +175,6 @@ awards:
 
 Hi! I’m Samuele Poppi, a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas in the Secure, Private, Open, and Trustworthy (SPOT) AI Lab.
 
-I hold a Ph.D. in Artificial Intelligence from the Universities of Pisa and Modena, with a focus on responsible and safe AI for vision and language.
-
-My research spans explainable AI, machine unlearning, and safety testing (including red- and blue-teaming) for large language and multimodal models. During a research internship at Meta GenAI, I worked on LLM safety with mentors such as Cristian Canton Ferrer and Jianfeng Chi. I’m currently involved in international collaborations aimed at making AI systems more secure and trustworthy.
+I hold a Ph.D. in Artificial Intelligence from the UNIPI and UNIMORE, focused on safe and responsible AI. During a research internship at Meta GenAI, I worked on LLM safety with mentors including Cristian Canton Ferrer and Jianfeng Chi. I’m currently involved in international projects to make AI systems more secure and trustworthy.
 
 If you’d like to connect or collaborate, feel free to reach out!
