@@ -1,5 +1,5 @@
 ---
-title: 'Improving LLM First-Token Predictions in Multiple-Choice Question Answering via Prefilling Attack'
+title: 'Improving LLM First-Token Predictions in\\Multiple-Choice Question Answering via Output Prefilling'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -47,7 +47,7 @@ tags:
   - Prefilling Attack
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
