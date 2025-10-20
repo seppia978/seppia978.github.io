@@ -1,7 +1,7 @@
 ---
 title: I joined the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) as a Postdoctoral Associate!
 summary: My new chapter begins among the desert's dunes!
-date: 2025-06-16
+date: 2025-10-20
 authors:
   - admin
 tags:
