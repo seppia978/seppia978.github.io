@@ -10,7 +10,7 @@ tags:
   - PhD
   - AI
 image:
-  caption: "."
+  caption: "Live at La Baia Imperiale (Riccione - Italy)"
 ---
 
 I was born on January 17, 1994, and grew up in Fiorano Modenese, a small town in northern Italy known as the land of Ferrari—and not just because of nearby Maranello. Fiorano is home to Ferrari’s private test track, and some of my earliest memories are of my father taking me there to watch Michael Schumacher testing the scarlet Formula 1 cars. Since then, I have remained a lifelong Ferrari and Formula 1 enthusiast, through both the triumphs and the challenging seasons.
