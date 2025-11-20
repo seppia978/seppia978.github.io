@@ -9,7 +9,6 @@ authors:
   - Noor Hussein
   - Munachiso Nwadike
   - admin
-  - Zheng-Xin Yong
   - Jie Zhang
   - Karthik Nandakumar
   - Neil Gong
