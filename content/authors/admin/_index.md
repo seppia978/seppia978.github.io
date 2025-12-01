@@ -76,6 +76,20 @@ education:
     date_end: 2017-12-07
     # summary: |
 work:
+  - position: Postdoctoral Associate
+    company_name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-06-16
+    date_end: ''
+    summary: |2-
+      Research Topics of interest include:
+      - AI Safety for LLMs and for Multimodal Models
+      - Unlearning
+      - Watermarking
+      - Deepfakes
+      - Constitutional AI
+      - Scalable Oversight
   - position: Research Scientist Intern
     company_name: Meta
     company_url: ''
