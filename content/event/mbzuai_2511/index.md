@@ -8,6 +8,8 @@ location: Mohamed bin Zayed University of Artificial Intelligence
 address:
   street: Masdar City
   city: Abu Dhabi
+  region: Abu Dhabi
+  postcode: '00000'
   country: United Arab Emirates
 
 summary: Discussions on how Safety is normally defined and what are the pros and cons.
