@@ -1,5 +1,5 @@
 ---
-title: SPQR: A Standardized Benchmark for Modern Safety Alignment Methods in Text-to-Image Diffusion Models'
+title: "SPQR: A Standardized Benchmark for Modern Safety Alignment Methods in Text-to-Image Diffusion Models'"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
