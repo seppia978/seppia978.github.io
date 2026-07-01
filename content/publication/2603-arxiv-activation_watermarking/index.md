@@ -27,7 +27,7 @@ tags:
   - Activation Watermarking
   - Adaptive Attacks
 
-featured: true
+featured: false
 
 url_pdf: 'https://arxiv.org/pdf/2603.23171'
 

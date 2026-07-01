@@ -30,7 +30,7 @@ tags:
   - Vision and Language
   - Computer Vision
 
-featured: true
+featured: false
 
 links:
   - name: Publisher

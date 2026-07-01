@@ -28,7 +28,7 @@ tags:
   - Authenticity
   - Robustness
 
-featured: true
+featured: false
 
 url_pdf: 'https://arxiv.org/pdf/2512.15182'
 

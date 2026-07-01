@@ -26,7 +26,7 @@ tags:
   - AI Safety
   - Safety Evaluation
 
-featured: true
+featured: false
 
 url_pdf: 'https://arxiv.org/pdf/2606.10740'
 

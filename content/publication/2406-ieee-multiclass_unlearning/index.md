@@ -28,7 +28,7 @@ tags:
   - Image Classification
   - Vision Transformers
 
-featured: true
+featured: false
 
 links:
   - name: Publisher
