@@ -193,6 +193,39 @@ html.dark .navbar-brand::after {
   line-height: 1.7;
 }
 
+#papers > .flex.flex-col.items-center.max-w-prose,
+#more-papers > .flex.flex-col.items-center.max-w-prose,
+#talks > .flex.flex-col.items-center.max-w-prose,
+#contact > .flex.flex-col.items-center.max-w-prose {
+  align-items: center !important;
+  text-align: center;
+}
+
+#papers > .flex.flex-col.items-center.max-w-prose p,
+#more-papers > .flex.flex-col.items-center.max-w-prose p,
+#talks > .flex.flex-col.items-center.max-w-prose p,
+#contact > .flex.flex-col.items-center.max-w-prose p {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#papers .container,
+#more-papers .container,
+#talks .container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#more-papers .pub-list-item.view-citation,
+#contact .contact-panel {
+  text-align: left;
+}
+
+#contact .contact-panel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .editorial-hero-section {
   padding-top: 5.25rem !important;
   padding-bottom: 3.25rem !important;

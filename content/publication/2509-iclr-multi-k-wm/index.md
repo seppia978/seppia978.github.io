@@ -14,6 +14,11 @@ authors:
   - Neil Gong
   - Nils Lukas
 
+supervised_students:
+  - Toluwani Aremu
+  - Noor Hussein
+  - Munachiso Nwadike
+
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'

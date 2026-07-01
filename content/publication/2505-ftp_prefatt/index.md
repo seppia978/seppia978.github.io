@@ -14,6 +14,10 @@ authors:
   - Lorenzo Baraldi
   - Rita Cucchiara
 
+supervised_students:
+  - Silvia Cappelletti
+  - Tobia Poppi
+
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'

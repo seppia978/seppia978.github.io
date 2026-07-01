@@ -6,6 +6,9 @@ authors:
   - Nils Lukas
   - admin
 
+supervised_students:
+  - Sai Kartheek Reddy Kasu
+
 date: '2026-06-09T00:00:00Z'
 doi: ''
 

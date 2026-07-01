@@ -15,6 +15,11 @@ authors:
   - Fakhri Karray
   - admin
 
+supervised_students:
+  - Mohammed Talha Alam
+  - Nada Saadi
+  - Fahad Shamshad
+
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'

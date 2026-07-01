@@ -8,6 +8,11 @@ authors:
   - admin
   - Nils Lukas
 
+supervised_students:
+  - Sarim Hashmi
+  - Abdelrahman Elsayed
+  - Mohammed Talha Alam
+
 date: '2025-12-17T00:00:00Z'
 doi: ''
 
