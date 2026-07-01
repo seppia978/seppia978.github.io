@@ -43,15 +43,15 @@ sections:
 
         <div class="research-focus-grid">
           <div class="research-focus-card">
-            <h3>AI Control pre- and post-deployment</h3>
+            <h3>AI Control Across Deployment</h3>
             <p>Methods and evaluations for keeping language, vision-language, and generative models aligned before release and robust after fine-tuning, adaptation, or policy shifts.</p>
           </div>
           <div class="research-focus-card">
-            <h3>Mechanistic Understanding</h3>
+            <h3>The Mechanics of Model Change</h3>
             <p>Interpreting how fine-tuning changes models, from multilingual LLM safety to gravitational interpretations of fine-tuning reversion and future mechanistic studies.</p>
           </div>
           <div class="research-focus-card">
-            <h3>Model Evidence & Reliability</h3>
+            <h3>Evidence, Forgetting & Forensics</h3>
             <p>Tools to explain decisions, remove learned information, and assess synthetic media, connecting XAI, unlearning, and deepfake robustness under one reliability lens.</p>
           </div>
         </div>
