@@ -19,6 +19,7 @@ author_notes:
   - 'Equal contribution'
 
 date: '2023-11-27T00:00:00Z'
+publication_year: 2024
 doi: ''
 
 # Schedule page publish date (NOT publication's date).

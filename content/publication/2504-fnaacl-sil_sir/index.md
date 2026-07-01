@@ -20,6 +20,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2024-10-01T00:00:00Z'
+publication_year: 2025
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
