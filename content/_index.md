@@ -38,25 +38,21 @@ sections:
       subtitle: ''
       text: |-
         <p class="research-lede">
-          I study how AI systems fail, adapt, and stay safe after deployment, with a focus on LLMs, multimodal models, and generative systems that must remain reliable under fine-tuning, misuse, and distribution shift.
+          I study how to control, understand, and audit AI systems before and after deployment, with a focus on models that must remain reliable under fine-tuning, misuse, and distribution shift.
         </p>
 
         <div class="research-focus-grid">
           <div class="research-focus-card">
-            <h3>Safety after adaptation</h3>
-            <p>Benchmarks and stress tests for safety alignment when models are fine-tuned, personalized, or moved into new domains.</p>
+            <h3>AI Control pre- and post-deployment</h3>
+            <p>Methods and evaluations for keeping language, vision-language, and generative models aligned before release and robust after fine-tuning, adaptation, or policy shifts.</p>
           </div>
           <div class="research-focus-card">
-            <h3>Multilingual LLM safety</h3>
-            <p>Understanding how safety behavior transfers across languages, and why fine-tuning attacks can break alignment globally.</p>
+            <h3>Mechanistic Understanding</h3>
+            <p>Interpreting how fine-tuning changes models, from multilingual LLM safety to gravitational interpretations of fine-tuning reversion and future mechanistic studies.</p>
           </div>
           <div class="research-focus-card">
-            <h3>Trustworthy multimodal AI</h3>
-            <p>Methods for safer vision-language and text-to-image systems, from concept removal to robust evaluation protocols.</p>
-          </div>
-          <div class="research-focus-card">
-            <h3>Unlearning and provenance</h3>
-            <p>Practical tools for removing information, resisting watermark forgery, and making generated media more accountable.</p>
+            <h3>Model Evidence & Reliability</h3>
+            <p>Tools to explain decisions, remove learned information, and assess synthetic media, connecting XAI, unlearning, and deepfake robustness under one reliability lens.</p>
           </div>
         </div>
 
