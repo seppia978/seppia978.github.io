@@ -74,6 +74,71 @@ section#about > .container,
   color: rgb(209 213 219);
 }
 
+.research-manifesto {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.research-manifesto p {
+  margin: 0 0 1.1rem;
+  color: rgb(55 65 81);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.dark .research-manifesto p {
+  color: rgb(209 213 219);
+}
+
+.research-principles-section .prose {
+  max-width: 980px;
+}
+
+.research-principles-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.research-principles-list li {
+  padding: 1.1rem;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, 0.84);
+}
+
+.research-principles-list strong,
+.research-principles-list span {
+  display: block;
+}
+
+.research-principles-list strong {
+  margin-bottom: 0.45rem;
+  color: rgb(17 24 39);
+  font-size: 1rem;
+}
+
+.research-principles-list span {
+  color: rgb(75 85 99);
+  line-height: 1.65;
+}
+
+.dark .research-principles-list li {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(16, 20, 27, 0.84);
+}
+
+.dark .research-principles-list strong {
+  color: rgb(249 250 251);
+}
+
+.dark .research-principles-list span {
+  color: rgb(209 213 219);
+}
+
 .research-quick-links {
   display: flex;
   flex-wrap: wrap;
@@ -178,6 +243,10 @@ section#about > .container,
 @media (max-width: 900px) {
   .research-focus-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .research-principles-list {
+    grid-template-columns: 1fr;
   }
 }
 

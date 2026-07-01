@@ -32,40 +32,6 @@ sections:
           position: center
           parallax: false
   - block: markdown
-    id: research
-    content:
-      title: Research Focus
-      subtitle: ''
-      text: |-
-        <p class="research-lede">
-          I study how to control, understand, and audit AI systems before and after deployment, with a focus on models that must remain reliable under fine-tuning, misuse, and distribution shift.
-        </p>
-
-        <div class="research-focus-grid">
-          <div class="research-focus-card">
-            <h3>AI Control Across Deployment</h3>
-            <p>Methods and evaluations for keeping language, vision-language, and generative models aligned before release and robust after fine-tuning, adaptation, or policy shifts.</p>
-          </div>
-          <div class="research-focus-card">
-            <h3>The Mechanics of Model Change</h3>
-            <p>Interpreting how fine-tuning changes models, from multilingual LLM safety to gravitational interpretations of fine-tuning reversion and future mechanistic studies.</p>
-          </div>
-          <div class="research-focus-card">
-            <h3>Evidence, Forgetting & Forensics</h3>
-            <p>Tools to explain decisions, remove learned information, and assess synthetic media, connecting XAI, unlearning, and deepfake robustness under one reliability lens.</p>
-          </div>
-        </div>
-
-        <div class="research-quick-links">
-          <a href="#papers">Selected publications</a>
-          <a href="#talks">Talks and lectures</a>
-          <a href="/uploads/resume.pdf">Download CV</a>
-          <a href="mailto:s.poppi94@gmail.com">Start a conversation</a>
-        </div>
-    design:
-      columns: '1'
-      css_class: research-focus-section
-  - block: markdown
     id: news
     content:
       title: Latest News
@@ -76,11 +42,11 @@ sections:
         </p>
 
         <ul class="latest-news-list">
+          <li><time>Jun'26</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
           <li><time>Jun'26</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Fine-Tuning Reversion</a> is online on arXiv.</span></li>
           <li><time>Jun'26</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>
           <li><time>Mar'26</time><span><a href="/publication/2603-arxiv-activation_watermarking/">Robust Safety Monitoring of Language Models via Activation Watermarking</a> is online on arXiv.</span></li>
           <li><time>Dec'25</time><span><a href="/publication/2512-arxiv-authentic_multimedia_detection/">Robust and Calibrated Detection of Authentic Multimedia Content</a> is online on arXiv.</span></li>
-          <li><time>Nov'25</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
           <li><time>Nov'25</time><span>I gave a lecture on safety for text-to-image diffusion models at MBZUAI.</span></li>
           <li><time>Jun'25</time><span>I joined MBZUAI as a Postdoctoral Associate in the SPOT Lab.</span></li>
           <li><time>May'25</time><span>I completed my PhD and gave a lecture on responsible generative AI at Scuola Normale Superiore.</span></li>
