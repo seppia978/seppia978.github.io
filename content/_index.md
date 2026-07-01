@@ -61,9 +61,9 @@ sections:
             <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>
             <li><time>Mar 2026</time><span><a href="/publication/2603-arxiv-activation_watermarking/">Robust Safety Monitoring of Language Models via Activation Watermarking</a> is online on arXiv.</span></li>
             <li><time>Dec 2025</time><span><a href="/publication/2512-arxiv-authentic_multimedia_detection/">Robust and Calibrated Detection of Authentic Multimedia Content</a> is online on arXiv.</span></li>
-            <li><time>Nov 2025</time><span>I gave a lecture on safety for text-to-image diffusion models at MBZUAI.</span></li>
-            <li><time>Jun 2025</time><span>I joined MBZUAI as a Postdoctoral Associate in the SPOT Lab.</span></li>
-            <li><time>May 2025</time><span>I completed my PhD and gave a lecture on responsible generative AI at Scuola Normale Superiore.</span></li>
+            <li><time>Nov 2025</time><span><a href="/event/mbzuai_2511/">I gave a lecture on safety for text-to-image diffusion models at MBZUAI.</a></span></li>
+            <li><time>Jun 2025</time><span><a href="/post/postdoc-at-mbzuai/">I joined MBZUAI as a Postdoctoral Associate in the SPOT Lab.</a></span></li>
+            <li><time>May 2025</time><span><a href="/event/normale_pisa_2505/">I completed my PhD and gave a lecture on responsible generative AI at Scuola Normale Superiore.</a></span></li>
           </ul>
         </div>
     design:
@@ -111,13 +111,12 @@ sections:
   - block: collection
     id: more-papers
     content:
-      title: More Publications
-      text: Additional papers and earlier work.
-      count: 5
+      title: All Publications
+      text: Complete publication list, including featured work.
+      count: 99
       filters:
         folders:
           - publication
-        exclude_featured: true
     design:
       view: citation
   - block: collection

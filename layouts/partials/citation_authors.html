@@ -1,0 +1,21 @@
+{{ $page := . }}
+{{ $supervised := $page.Params.supervised_students | default (slice) }}
+{{ $authors := $page.Params.authors | default (slice) }}
+
+{{- range $index, $author := $authors -}}
+  {{- if gt $index 0 }}, {{ end -}}
+  {{- $name := printf "%v" $author -}}
+  {{- $classes := slice -}}
+  {{- if eq $name "admin" -}}
+    {{- with site.GetPage "authors/admin" -}}
+      {{- $name = .Title -}}
+    {{- else -}}
+      {{- $name = "Samuele Poppi" -}}
+    {{- end -}}
+    {{- $classes = $classes | append "font-bold" -}}
+  {{- end -}}
+  {{- if in $supervised $name -}}
+    {{- $classes = $classes | append "supervised-author" -}}
+  {{- end -}}
+  <span{{ with $classes }} class="{{ delimit . " " }}"{{ end }}>{{ $name }}</span>
+{{- end -}}

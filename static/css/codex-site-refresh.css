@@ -207,7 +207,7 @@ html.dark .navbar-brand::after {
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.75fr);
   gap: 2rem;
-  align-items: end;
+  align-items: start;
   width: 100%;
 }
 
@@ -354,6 +354,12 @@ html.dark .venue-chip {
   border-radius: var(--sp-radius);
   background: rgba(255, 255, 255, 0.72);
   box-shadow: var(--sp-shadow);
+}
+
+@media (min-width: 1025px) {
+  .current-panel {
+    margin-top: clamp(4.75rem, 7.5vw, 6.25rem);
+  }
 }
 
 html.dark .current-panel {
@@ -735,6 +741,14 @@ html.dark .latest-news-list time {
   color: var(--sp-ink);
 }
 
+.pub-list-item.view-citation .supervised-author {
+  color: var(--sp-ink);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-decoration-color: var(--sp-teal);
+  text-underline-offset: 0.18em;
+}
+
 .pub-list-item.view-citation > a.underline,
 .pub-list-item.view-citation > a:not(.hb-attachment-link) {
   color: var(--sp-ink);
@@ -917,6 +931,7 @@ html.dark .page-body article.w-full .prose a {
 
   .current-panel {
     max-width: 620px;
+    margin-top: 1rem;
   }
 
   .news-board {
@@ -1082,6 +1097,10 @@ html.dark .page-body article.w-full .prose a {
     width: 100%;
     max-width: 100%;
     padding: 1rem;
+  }
+
+  .current-panel {
+    margin-top: 1.15rem;
   }
 
   .latest-news-list li {
