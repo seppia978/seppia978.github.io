@@ -8,7 +8,7 @@ authors:
   - admin
   - Sara Sarto
   - Marcella Cornia
-  - Lorenzo Baraldi'
+  - Lorenzo Baraldi
   - Rita Cucchiara
 
 # Author notes (optional)
@@ -30,8 +30,7 @@ publication: In *International Conference on Pattern Recognition*
 publication_short: In *ICPR*
 abstract: The implementation of data protection regulations such as the GDPR and the California Consumer Privacy Act has sparked a growing interest in removing sensitive information from pre-trained models without requiring retraining from scratch, all while maintaining predictive performance on remaining data. Recent studies on machine unlearning for deep neural networks have resulted in different attempts that put constraints on the training procedure and which are limited to small-scale architectures and with poor adaptability to real-world requirements. In this paper, we develop an approach to delete information on a class from a pre-trained model, by injecting a trainable low-rank decomposition into the network parameters, and without requiring access to the original training set. Our approach greatly reduces the number of parameters to train as well as time and memory requirements. This allows a painless application to real-life settings where the entire training set is unavailable, and compliance with the requirement of time-bound deletion. We conduct experiments on various Vision Transformer architectures for class forgetting. Extensive empirical analyses demonstrate that our proposed method is efficient, safe to apply, and effective in removing learned information while maintaining accuracy.
 
-# Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A low-rank unlearning approach for Vision Transformers that avoids retaining the original training data.
 
 tags:
   - Unlearning
@@ -67,8 +66,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - ELIAS
+# projects:
+#   - ELIAS
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

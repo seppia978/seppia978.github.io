@@ -1,5 +1,5 @@
 ---
-title: "SPQR: A Standardized Benchmark for Modern Safety Alignment Methods in Text-to-Image Diffusion Models'"
+title: 'SPQR: A Standardized Benchmark for Modern Safety Alignment Methods in Text-to-Image Diffusion Models'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -37,8 +37,7 @@ abstract: |
   Text-to-image diffusion models can emit copyrighted, unsafe, or private content. Safety alignment aims to suppress specific concepts, yet evaluations seldom test whether safety persists under benign downstream fine-tuning routinely applied after deployment (e.g., LoRA personalization, style/domain adapters). We study the stability of current safety methods under benign fine-tuning and observe frequent breakdowns. As true safety alignment must withstand even benign post-deployment adaptations, we introduce the SPQR benchmark (Safety-Prompt adherence-Quality-Robustness). SPQR is a single-scored metric that provides a standardized and reproducible framework to evaluate how well safety-aligned diffusion models preserve safety, utility, and robustness under benign fine-tuning, by reporting a single leaderboard score to facilitate comparisons. We conduct multilingual, domain-specific, and out-of-distribution analyses, along with category-wise breakdowns, to identify when safety alignment fails after benign fine-tuning, ultimately showcasing SPQR as a concise yet comprehensive benchmark for T2I safety alignment techniques for T2I models.
 
 
-# Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A benchmark for testing whether text-to-image safety alignment still holds after benign fine-tuning and deployment-time adaptation.
 
 tags:
   - NSFW

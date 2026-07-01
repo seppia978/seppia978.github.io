@@ -30,14 +30,12 @@ publication: In * IEEE / CVF Computer Vision and Pattern Recognition Conference 
 publication_short: In *CVPRW*
 abstract: As the request for deep learning solutions increases, the need for explainability is even more fundamental. In this setting, particular attention has been given to visualization techniques, that try to attribute the right relevance to each input pixel with respect to the output of the network. In this paper, we focus on Class Activation Mapping (CAM) approaches, which provide an effective visualization by taking weighted averages of the activation maps. To enhance the evaluation and the reproducibility of such approaches, we propose a novel set of metrics to quantify explanation maps, which show better effectiveness and simplify comparisons between approaches. To evaluate the appropriateness of the proposal, we compare different CAM-based visualization methods on the entire ImageNet validation set, fostering proper comparisons and reproducibility.
 
-# Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A reproducibility-focused evaluation metric for Class Activation Mapping methods in computer vision.
 
 tags:
-  - AI Safety
-  - Harmful Content Generation Mitigation
-  - Stable Diffusion
-  - Llama-models
+  - Explainable AI
+  - Class Activation Mapping
+  - Computer Vision
 
 # Display this page in the Featured widget?
 featured: false
@@ -47,7 +45,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2311.16254'
+url_pdf: 'Poppi_Revisiting_the_Evaluation_of_Class_Activation_Mapping_for_Explainability_A_CVPRW_2021_paper.pdf'
 # url_code: 'https://github.com/aimagelab/safe-clip'
 # url_dataset: 'https://huggingface.co/datasets/aimagelab/ViSU-Text'
 # url_poster: ''
@@ -68,8 +66,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - ELIAS
+# projects:
+#   - ELIAS
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
