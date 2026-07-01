@@ -38,7 +38,7 @@ sections:
       subtitle: ''
       text: |-
         <p class="latest-news-meta">
-          Selected venues: ECCV x2 · NAACL Findings x1 · ICPR x1 · ICIAP x2 · IEEE Intelligent Systems x1 · CVPRW x1
+          Selected venues: ECCV x2 · ICPR x2 · NAACL Findings x1 · ICIAP x2 · IEEE Intelligent Systems x1 · CVPRW x1
         </p>
 
         <ul class="latest-news-list">
