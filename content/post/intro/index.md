@@ -1,6 +1,6 @@
 ---
-title: About Me.
-summary: A Brief Introduction.
+title: Beyond the Papers
+summary: A short personal introduction, from Fiorano Modenese to AI safety research.
 date: 2025-10-01
 authors:
   - admin

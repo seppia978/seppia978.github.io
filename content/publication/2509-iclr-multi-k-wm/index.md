@@ -47,8 +47,7 @@ abstract: |
   Our method provably bounds the attacker's success rate and we empirically observe a reduction from near-perfect success rates to only $2\%$ at negligible computational overhead.
 
 
-# Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A randomized-key defense that makes watermark forgery substantially harder without adding extra utility loss.
 
 tags:
   - Watermarking

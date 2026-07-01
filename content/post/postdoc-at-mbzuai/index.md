@@ -1,6 +1,6 @@
 ---
-title: I joined the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) as a Postdoctoral Associate!
-summary: My new chapter begins among the desert's dunes!
+title: I joined MBZUAI as a Postdoctoral Associate
+summary: A new chapter in Abu Dhabi, working on secure, private, open, and trustworthy AI.
 date: 2025-10-20
 authors:
   - admin

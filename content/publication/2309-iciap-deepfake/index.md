@@ -6,7 +6,6 @@ title: 'Unveiling the Impact of Image Transformations on Deepfake Detection: An 
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Federico Cocchi
-  - Lorenzo Baraldi1
   - admin
   - Marcella Cornia
   - Lorenzo Baraldi
@@ -33,8 +32,7 @@ publication: In *22nd International Conference on Image Analysis and Processing 
 publication_short: In *ICIAP*
 abstract: With the recent explosion of interest in visual Generative AI, the field of deepfake detection has gained a lot of attention. In fact, deepfake detection might be the only measure to counter the potential proliferation of generated media in support of fake news and its consequences. While many of the available works limit the detection to a pure and direct classification of fake versus real, this does not translate well to a real-world scenario. Indeed, malevolent users can easily apply post-processing techniques to generated content, changing the underlying distribution of fake data. In this work, we provide an in-depth analysis of the robustness of a deepfake detection pipeline, considering different image augmentations, transformations, and other pre-processing steps. These transformations are only applied in the evaluation phase, thus simulating a practical situation in which the detector is not trained on all the possible augmentations that can be used by the attacker. In particular, we analyze the performance of a k-NN and a linear probe detector on the COCOFake dataset, using image features extracted from pre-trained models, like CLIP and DINO.  Our results demonstrate that while the CLIP visual backbone outperforms DINO in deepfake detection with no augmentation, its performance varies significantly in presence of any transformation, favoring the robustness of DINO.
 
-# Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: An experimental study of how common image transformations affect the robustness of deepfake detectors.
 
 tags:
   - DeepFakes
@@ -71,8 +69,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - ELIAS
+# projects:
+#   - ELIAS
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

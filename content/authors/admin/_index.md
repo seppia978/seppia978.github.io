@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Postdoctoral Associate - AI Safety
+role: Postdoctoral Associate in AI Safety
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -47,9 +47,10 @@ profiles:
     url: https://orcid.org/0000-0002-8428-501X
 
 interests:
-  - AI Safety
-  - Trustworthy and Explainable AI
-  - Privacy
+  - AI safety for LLMs and multimodal models
+  - Safety alignment after fine-tuning
+  - Trustworthy vision-language systems
+  - Unlearning, watermarking, and deepfakes
 
 education:
   - area: PhD Artificial Intelligence
@@ -57,7 +58,7 @@ education:
     date_start: 2021-11-01
     date_end: 2025-05-16
     summary: |
-      Thesis: "Responsible AI in Vision and Language: Ensuring Safety, Ethics, and Transparency in Modern Models
+      Thesis: "Responsible AI in Vision and Language: Ensuring Safety, Ethics, and Transparency in Modern Models"
     button:
       text: 'Read Thesis'
       url: 'https://etd.adm.unipi.it/theses/available/etd-04162025-113306/'
@@ -78,26 +79,24 @@ education:
 work:
   - position: Postdoctoral Associate
     company_name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
-    company_url: ''
+    company_url: 'https://mbzuai.ac.ae/'
     company_logo: ''
     date_start: 2025-06-16
     date_end: ''
     summary: |2-
-      Research Topics of interest include:
-      - AI Safety for LLMs and for Multimodal Models
-      - Unlearning
-      - Watermarking
-      - Deepfakes
-      - Constitutional AI
-      - Scalable Oversight
+      Research topics include:
+      - AI safety for LLMs and multimodal models
+      - Safety alignment and robustness after model adaptation
+      - Unlearning, watermarking, and deepfake robustness
+      - Constitutional AI and scalable oversight
   - position: Research Scientist Intern
     company_name: Meta
-    company_url: ''
+    company_url: 'https://ai.meta.com/'
     company_logo: ''
     date_start: 2024-05-20
     date_end: '2024-11-01'
     summary: |2-
-      Research objectives include:
+      Research topics included:
       - Safety of Multilingual LLMs
       - Red Teaming of Large Language Models
       - Llama Language Models
@@ -108,26 +107,26 @@ work:
     date_start: 2021-06-01
     date_end: 2021-09-30
     summary: |
-      Research objectives include:
-      - Computer vision algorithms for underwater and pick and place
+      Research topics included:
+      - Computer vision algorithms for underwater robotics and pick-and-place systems
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Skills
     items:
-      - name: Python
+      - name: AI Safety
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Research
+        percent: 100
+        icon: shield-check
+      - name: Robust Evaluation
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Project Management
+      - name: Python
         description: ''
-        percent: 100
-        icon: circle-stack
+        percent: 85
+        icon: code-bracket
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -159,7 +158,6 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Honorable Mention for Best Paper Award
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: 22nd International Conference on Image Analysis and Processing
     icon: conference
@@ -187,6 +185,8 @@ awards:
 
 ## About Me
 
-Hi! I’m Samuele Poppi, a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas in the Secure, Private, Open, and Trustworthy (SPOT) AI Lab.
+Hi! I'm Samuele Poppi, a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas in the Secure, Private, Open, and Trustworthy (SPOT) AI Lab.
 
-If you’d like to connect or collaborate, feel free to reach out!
+My research focuses on making modern AI systems safer after they leave the lab: when they are fine-tuned, adapted to new languages, embedded in multimodal pipelines, or exposed to adversarial misuse. I work across LLM safety, trustworthy vision-language models, unlearning, watermarking, and deepfake robustness.
+
+If you'd like to connect or collaborate, feel free to reach out.
