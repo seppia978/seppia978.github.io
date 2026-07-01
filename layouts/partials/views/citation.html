@@ -1,30 +1,26 @@
 {{ $item := .item }}
-{{ $year_value := $item.Params.event_start | default $item.Date }}
-{{ $year := (time $year_value).Format "2006" }}
-{{ with $item.Params.publication_year }}{{ $year = printf "%v" . }}{{ end }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
-{{ $pub := partial "functions/resolve_publication.html" $item }}
-{{ $top_award := "" }}
-{{ with $item.Params.awards }}{{ $top_award = index . 0 }}{{ end }}
+{{ $year := $item.Date.Format "2006" }}
+{{ with $item.Params.publication_year }}{{ $year = printf "%v" . }}{{ end }}
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   {{/* APA Style */}}
-  {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
+  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
 
   <span class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item }}
   </span>.
   <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.
-  {{ with $pub.display_short }}
-    {{ $pub_text := . | plainify }}
-    {{ . | markdownify }}{{ if not (in $pub_text $year) }} {{ $year }}{{ end }}.
+  {{ if $item.Params.publication_short }}
+    {{ $pub_text := $item.Params.publication_short | plainify }}
+    {{ $item.Params.publication_short | markdownify }}{{ if not (in $pub_text $year) }} {{ $year }}{{ end }}.
+  {{ else if $item.Params.publication }}
+    {{ $pub_text := $item.Params.publication | plainify }}
+    {{ $item.Params.publication | markdownify }}{{ if not (in $pub_text $year) }} {{ $year }}{{ end }}.
   {{ else }}
     {{ $year }}.
-  {{ end }}
-  {{ with $top_award }}
-    <span class="ml-1">{{ partial "components/award_badge.html" (dict "award" . "page" $item "variant" "inline") }}</span>
   {{ end }}
 
   {{ if $has_attachments }}
@@ -40,14 +36,14 @@
     {{ partial "page_metadata_authors" $item }}.
   </span>
   <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
-  {{ with $pub.display_short }}
-    {{ $pub_text := . | plainify }}
-    {{ . | markdownify }}{{ if not (in $pub_text $year) }} {{ $year }}{{ end }}.
+  {{ if $item.Params.publication_short }}
+    {{ $pub_text := $item.Params.publication_short | plainify }}
+    {{ $item.Params.publication_short | markdownify }}{{ if not (in $pub_text $year) }} {{ $year }}{{ end }}.
+  {{ else if $item.Params.publication }}
+    {{ $pub_text := $item.Params.publication | plainify }}
+    {{ $item.Params.publication | markdownify }}{{ if not (in $pub_text $year) }} {{ $year }}{{ end }}.
   {{ else }}
     {{ $year }}.
-  {{ end }}
-  {{ with $top_award }}
-    <span class="ml-1">{{ partial "components/award_badge.html" (dict "award" . "page" $item "variant" "inline") }}</span>
   {{ end }}
 
   {{ if $has_attachments }}
