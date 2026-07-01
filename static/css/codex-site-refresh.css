@@ -17,7 +17,7 @@
 
 .research-focus-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 2rem 0;
 }
@@ -38,10 +38,6 @@
 
 .research-focus-card:nth-child(3) {
   border-top-color: #f59e0b;
-}
-
-.research-focus-card:nth-child(4) {
-  border-top-color: #a78bfa;
 }
 
 .dark .research-focus-card {
