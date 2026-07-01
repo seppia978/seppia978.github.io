@@ -22,7 +22,7 @@
       <section class="publication-stage" id="publications-{{ $stage.id }}">
         <div class="publication-stage-heading">
           {{ $count := len $items }}
-          <span>{{ $count }} {{ cond (eq $count 1) "publication" "publications" }}</span>
+          <span>{{ $count }} {{ cond (eq $count 1) "paper" "papers" }}</span>
           <h3>{{ $stage.title }}</h3>
           {{ with $stage.description }}
             <div class="publication-stage-description">{{ . | $page.RenderString }}</div>

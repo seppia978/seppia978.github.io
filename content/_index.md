@@ -111,8 +111,8 @@ sections:
   - block: publication-stages
     id: all-publications
     content:
-      title: All Publications
-      text: Authors in <strong>bold</strong> are me; <span class="legend-underlined">underlined</span> authors are students I advised or co-advised on that specific project.
+      title: Papers & Preprints
+      text: Author in <strong>bold</strong> is me; <span class="legend-underlined">underlined</span> authors are students I advised or co-advised on that specific project.
       stages:
         - id: postdoc
           title: Postdoc
