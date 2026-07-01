@@ -18,6 +18,8 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
+career_stage: phd
+
 date: '2023-11-27T00:00:00Z'
 publication_year: 2024
 doi: ''

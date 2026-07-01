@@ -13,6 +13,8 @@ supervised_students:
   - Abdelrahman Elsayed
   - Mohammed Talha Alam
 
+career_stage: postdoc
+
 date: '2025-12-17T00:00:00Z'
 doi: ''
 

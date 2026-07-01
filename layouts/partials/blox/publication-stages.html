@@ -1,0 +1,43 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $view := $block.design.view | default "citation" }}
+{{ $stages := $block.content.stages | default (slice) }}
+
+<div class="publication-stages-intro">
+  {{ with $block.content.title }}
+    <h2 class="mb-6 text-3xl font-bold">{{ . | $page.RenderString }}</h2>
+  {{ end }}
+  {{ with $block.content.text }}
+    <div class="publication-legend">{{ . | $page.RenderString }}</div>
+  {{ end }}
+</div>
+
+<div class="publication-stage-list">
+  {{ range $stage := $stages }}
+    {{ $items := where site.RegularPages "Section" "publication" }}
+    {{ $items = where $items "Params.career_stage" "==" $stage.id }}
+    {{ $items = sort $items "Date" "desc" }}
+
+    {{ if gt (len $items) 0 }}
+      <section class="publication-stage" id="publications-{{ $stage.id }}">
+        <div class="publication-stage-heading">
+          {{ $count := len $items }}
+          <span>{{ $count }} {{ cond (eq $count 1) "publication" "publications" }}</span>
+          <h3>{{ $stage.title }}</h3>
+          {{ with $stage.description }}
+            <div class="publication-stage-description">{{ . | $page.RenderString }}</div>
+          {{ end }}
+        </div>
+
+        <div class="publication-stage-items">
+          {{ $config := dict "columns" 1 "len" (len $items) "fill_image" true }}
+          {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" $page "view" $view "config" $config) }}
+          {{ range $index, $item := $items }}
+            {{ partial "functions/render_view" (dict "page" $block "item" $item "view" $view "index" $index "config" $config) }}
+          {{ end }}
+          {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" $page "view" $view "config" $config) }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+</div>

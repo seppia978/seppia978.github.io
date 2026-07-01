@@ -26,6 +26,8 @@ supervised_students:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
+career_stage: postdoc
+
 date: '2026-06-01T00:00:00Z'
 publication_year: 2026
 doi: ''

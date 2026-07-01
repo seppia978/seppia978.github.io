@@ -8,6 +8,8 @@ authors:
   - Lorenzo Baraldi
   - Rita Cucchiara
 
+career_stage: phd
+
 date: '2024-06-19T00:00:00Z'
 doi: ''
 

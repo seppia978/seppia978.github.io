@@ -164,6 +164,9 @@ html.dark .navbar-brand::after {
 .hbb-section .max-w-screen-lg,
 .hbb-section .max-w-prose {
   max-width: var(--sp-container) !important;
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .hbb-section .mb-6.text-3xl,
@@ -182,6 +185,7 @@ html.dark .navbar-brand::after {
 .hbb-section .flex.flex-col.items-center.max-w-prose {
   align-items: flex-start !important;
   max-width: var(--sp-container) !important;
+  width: 100% !important;
   padding-left: 1.25rem !important;
   padding-right: 1.25rem !important;
 }
@@ -194,15 +198,21 @@ html.dark .navbar-brand::after {
 }
 
 #papers > .flex.flex-col.items-center.max-w-prose,
-#more-papers > .flex.flex-col.items-center.max-w-prose,
+#all-publications > .flex.flex-col.items-center.max-w-prose,
+#all-publications .publication-stages-intro,
 #talks > .flex.flex-col.items-center.max-w-prose,
 #contact > .flex.flex-col.items-center.max-w-prose {
   align-items: center !important;
+  width: 100% !important;
+  max-width: var(--sp-container) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   text-align: center;
 }
 
 #papers > .flex.flex-col.items-center.max-w-prose p,
-#more-papers > .flex.flex-col.items-center.max-w-prose p,
+#all-publications > .flex.flex-col.items-center.max-w-prose p,
+#all-publications .publication-stages-intro p,
 #talks > .flex.flex-col.items-center.max-w-prose p,
 #contact > .flex.flex-col.items-center.max-w-prose p {
   margin-left: auto !important;
@@ -210,13 +220,13 @@ html.dark .navbar-brand::after {
 }
 
 #papers .container,
-#more-papers .container,
+#all-publications .container,
 #talks .container {
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-#more-papers .pub-list-item.view-citation,
+#all-publications .pub-list-item.view-citation,
 #contact .contact-panel {
   text-align: left;
 }
@@ -739,6 +749,106 @@ html.dark .latest-news-list time {
   min-height: 2rem;
   padding: 0.38rem 0.65rem;
   font-size: 0.8rem;
+}
+
+.publication-stages-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  padding: 0 1.25rem;
+  text-align: center;
+}
+
+.publication-stages-intro h2 {
+  margin-bottom: 0.7rem !important;
+}
+
+.publication-legend,
+.publication-legend p {
+  max-width: 760px;
+  margin: 0 auto !important;
+  color: var(--sp-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.publication-legend strong {
+  color: var(--sp-ink);
+  font-weight: 850;
+}
+
+.legend-underlined {
+  color: var(--sp-ink);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-decoration-color: var(--sp-teal);
+  text-underline-offset: 0.18em;
+}
+
+.publication-stage-list {
+  display: grid;
+  gap: 2.4rem;
+  width: 100%;
+  max-width: 920px;
+  margin: 2.8rem auto 0;
+  padding: 0 1.25rem;
+  text-align: left;
+}
+
+.publication-stage {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--sp-line);
+}
+
+.publication-stage-heading {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.publication-stage-heading span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--sp-teal-dark);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+html.dark .publication-stage-heading span {
+  color: var(--sp-teal);
+}
+
+.publication-stage-heading h3 {
+  margin: 0 !important;
+  color: var(--sp-ink) !important;
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem) !important;
+  line-height: 1.16 !important;
+  letter-spacing: 0 !important;
+}
+
+.publication-stage-description,
+.publication-stage-description p {
+  max-width: 660px;
+  margin: 0.45rem auto 0 !important;
+  color: var(--sp-muted);
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+.publication-stage-items .container {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.publication-stage-items .mt-16,
+.publication-stage-items .sm\:mt-20 {
+  margin-top: 0 !important;
+}
+
+.publication-stage-items .flex.flex-col.space-y-3 {
+  row-gap: 0 !important;
 }
 
 .pub-list-item.view-citation {

@@ -5,6 +5,8 @@ authors:
   - admin
   - Nils Lukas
 
+career_stage: postdoc
+
 date: '2026-06-26T00:00:00Z'
 doi: ''
 

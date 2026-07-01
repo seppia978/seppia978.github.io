@@ -108,15 +108,21 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    id: more-papers
+  - block: publication-stages
+    id: all-publications
     content:
       title: All Publications
-      text: Complete publication list, including featured work.
-      count: 99
-      filters:
-        folders:
-          - publication
+      text: Authors in <strong>bold</strong> are me; <span class="legend-underlined">underlined</span> authors are students I advised or co-advised on that specific project.
+      stages:
+        - id: postdoc
+          title: Postdoc
+          description: Current work from MBZUAI and post-PhD collaborations.
+        - id: phd
+          title: PhD
+          description: Work from my PhD years on safe, explainable, and trustworthy AI.
+        - id: msc
+          title: MSc
+          description: Early work from my master's research.
     design:
       view: citation
   - block: collection

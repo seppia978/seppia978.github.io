@@ -19,6 +19,8 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
+career_stage: phd
+
 date: '2024-10-01T00:00:00Z'
 publication_year: 2025
 doi: ''

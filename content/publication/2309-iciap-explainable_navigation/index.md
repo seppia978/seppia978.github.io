@@ -10,6 +10,8 @@ authors:
   - Lorenzo Baraldi
   - Rita Cucchiara
 
+career_stage: phd
+
 date: '2023-09-05T00:00:00Z'
 doi: '10.1007/978-3-031-43148-7_15'
 

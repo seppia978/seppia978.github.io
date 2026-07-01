@@ -11,6 +11,8 @@ supervised_students:
   - Toluwani Aremu
   - Daniil Ognev
 
+career_stage: postdoc
+
 date: '2026-03-24T00:00:00Z'
 doi: ''
 

@@ -17,6 +17,8 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
+career_stage: phd
+
 date: '2023-09-05T00:00:00Z'
 doi: ''
 

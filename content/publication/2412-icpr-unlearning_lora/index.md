@@ -14,6 +14,8 @@ authors:
 # Author notes (optional)
 author_notes:
 
+career_stage: phd
+
 date: '2024-12-01T00:00:00Z'
 doi: ''
 

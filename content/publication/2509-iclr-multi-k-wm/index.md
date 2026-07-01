@@ -25,6 +25,8 @@ supervised_students:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
+career_stage: postdoc
+
 date: '2025-09-22T00:00:00Z'
 doi: ''
 
