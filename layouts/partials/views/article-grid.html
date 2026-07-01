@@ -1,0 +1,67 @@
+{{ $item := .item }}
+{{ $fill_image := .config.fill_image | default true }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+{{ $year := $item.Date.Format "2006" }}
+{{ with $item.Params.publication_year }}{{ $year = printf "%v" . }}{{ end }}
+{{ $venue := "" }}
+{{ if eq $item.Type "publication" }}
+  {{ with $item.Params.publication_short }}
+    {{ $venue = . | markdownify | plainify | replaceRE "^In " "" }}
+  {{ else }}
+    {{ with $item.Params.publication }}
+      {{ $venue = . | markdownify | plainify | replaceRE "^In " "" }}
+    {{ end }}
+  {{ end }}
+  {{ if and $venue (not (in $venue $year)) }}
+    {{ $venue = printf "%s %s" $venue $year }}
+  {{ end }}
+{{ else if eq $item.Type "event" }}
+  {{ $venue = "Talk" }}
+{{ else }}
+  {{ with first 1 ($item.GetTerms "tags") }}
+    {{ $venue = (index . 0).Page.LinkTitle }}
+  {{ end }}
+{{ end }}
+
+<article class="editorial-card">
+  {{ with $resource }}
+    {{ $image := "" }}
+    {{ if $fill_image }}
+      {{ $image = .Fill (printf "960x540 %s" $anchor) }}
+    {{ else }}
+      {{ $image = .Fit (printf "960x540 %s" $anchor) }}
+    {{ end }}
+    {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+    <a class="editorial-card-media" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <img alt="{{ $item.Title | plainify }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy">
+    </a>
+  {{ end }}
+
+  <div class="editorial-card-body">
+    <div class="editorial-card-meta">
+      {{ with $venue }}<span class="venue-chip">{{ . }}</span>{{ end }}
+      <time datetime="{{ time.Format "2006-01-02" $item.Date }}">
+        {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
+      </time>
+    </div>
+
+    <h3><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a></h3>
+
+    <p>
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+      </a>
+    </p>
+
+    <a class="text-link" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      {{ if eq $item.Type "publication" }}Read paper{{ else if eq $item.Type "event" }}View talk{{ else }}Read more{{ end }}
+    </a>
+  </div>
+</article>
