@@ -1,5 +1,7 @@
 ---
-title: 'SPQR: A Standardized Benchmark for Modern Safety Alignment Methods in Text-to-Image Diffusion Models'
+title: 'SPQR: A Multi-Dimensional Benchmark for Safety Alignment under Benign Model Adaptation'
+aliases:
+  - /publication/2511-cvpr-spqr/
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -28,11 +30,11 @@ publishDate: '2017-01-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-# publication: In *Arxiv*
-# publication_short: In *Arxiv*
+publication: In *European Conference on Computer Vision*
+publication_short: In *ECCV*
 abstract: |
   Text-to-image diffusion models can emit copyrighted, unsafe, or private content. Safety alignment aims to suppress specific concepts, yet evaluations seldom test whether safety persists under benign downstream fine-tuning routinely applied after deployment (e.g., LoRA personalization, style/domain adapters). We study the stability of current safety methods under benign fine-tuning and observe frequent breakdowns. As true safety alignment must withstand even benign post-deployment adaptations, we introduce the SPQR benchmark (Safety-Prompt adherence-Quality-Robustness). SPQR is a single-scored metric that provides a standardized and reproducible framework to evaluate how well safety-aligned diffusion models preserve safety, utility, and robustness under benign fine-tuning, by reporting a single leaderboard score to facilitate comparisons. We conduct multilingual, domain-specific, and out-of-distribution analyses, along with category-wise breakdowns, to identify when safety alignment fails after benign fine-tuning, ultimately showcasing SPQR as a concise yet comprehensive benchmark for T2I safety alignment techniques for T2I models.
 
@@ -53,7 +55,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2511.19558'
+url_pdf: 'https://arxiv.org/pdf/2511.19558'
 # url_code: 'https://github.com/aimagelab/safe-clip'
 # url_dataset: 'https://huggingface.co/datasets/aimagelab/ViSU-Text'
 # url_poster: ''
