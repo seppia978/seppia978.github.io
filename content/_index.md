@@ -65,6 +65,29 @@ sections:
     design:
       columns: '1'
       css_class: research-focus-section
+  - block: markdown
+    id: news
+    content:
+      title: Latest News
+      subtitle: ''
+      text: |-
+        <p class="latest-news-meta">
+          Selected venues: ECCV x2 · NAACL Findings x1 · ICPR x1 · ICIAP x2 · IEEE Intelligent Systems x1 · CVPRW x1
+        </p>
+
+        <ul class="latest-news-list">
+          <li><time>Jun'26</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Fine-Tuning Reversion</a> is online on arXiv.</span></li>
+          <li><time>Jun'26</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>
+          <li><time>Mar'26</time><span><a href="/publication/2603-arxiv-activation_watermarking/">Robust Safety Monitoring of Language Models via Activation Watermarking</a> is online on arXiv.</span></li>
+          <li><time>Dec'25</time><span><a href="/publication/2512-arxiv-authentic_multimedia_detection/">Robust and Calibrated Detection of Authentic Multimedia Content</a> is online on arXiv.</span></li>
+          <li><time>Nov'25</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
+          <li><time>Nov'25</time><span>I gave a lecture on safety for text-to-image diffusion models at MBZUAI.</span></li>
+          <li><time>Jun'25</time><span>I joined MBZUAI as a Postdoctoral Associate in the SPOT Lab.</span></li>
+          <li><time>May'25</time><span>I completed my PhD and gave a lecture on responsible generative AI at Scuola Normale Superiore.</span></li>
+        </ul>
+    design:
+      columns: '1'
+      css_class: latest-news-section
   - block: collection
     id: papers
     content:
@@ -98,35 +121,6 @@ sections:
     design:
       view: article-grid
       columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Updates
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: markdown
     id: contact
     content:
