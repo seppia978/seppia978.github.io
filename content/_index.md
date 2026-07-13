@@ -38,7 +38,7 @@ sections:
             </span>
             <div>
               <p class="panel-label">Currently</p>
-              <p class="panel-title">Postdoc, MBZUAI <a href="https://nilslukas.github.io/group.html" target="_blank" rel="noopener">SpotAI</a></p>
+              <p class="panel-title">Postdoc @ MBZUAI <a href="https://nilslukas.github.io/group.html" target="_blank" rel="noopener">SpotAI Lab</a></p>
               <p class="panel-copy">Working on model behavior under fine-tuning, safety alignment under adaptation, and robust evidence for trustworthy AI.</p>
             </div>
             <div class="panel-highlight">
