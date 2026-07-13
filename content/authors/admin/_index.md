@@ -185,7 +185,7 @@ awards:
 
 ## About Me
 
-Hi! I'm Samuele Poppi, a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas in the Secure, Private, Open, and Trustworthy (SPOT) AI Lab.
+Hi! I'm Samuele Poppi, a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas at [SpotAI](https://nilslukas.github.io/group.html).
 
 My research focuses on making modern AI systems safer after they leave the lab: when they are fine-tuned, adapted to new languages, embedded in multimodal pipelines, or exposed to adversarial misuse. I work across LLM safety, trustworthy vision-language models, unlearning, watermarking, and deepfake robustness.
 

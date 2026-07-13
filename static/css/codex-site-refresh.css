@@ -460,6 +460,15 @@ html.dark .panel-label {
   line-height: 1.25 !important;
 }
 
+.panel-title a {
+  color: var(--sp-teal-dark);
+  text-decoration-color: rgba(13, 148, 136, 0.45);
+}
+
+html.dark .panel-title a {
+  color: var(--sp-teal);
+}
+
 .panel-copy {
   margin: 0.55rem 0 0 !important;
   color: var(--sp-muted) !important;

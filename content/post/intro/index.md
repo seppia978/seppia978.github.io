@@ -21,4 +21,4 @@ I earned my B.Sc. and M.Sc. in Computer Engineering, followed by a Ph.D. (May 20
 
 During my doctoral studies, I completed a research internship at Meta GenAI, where I worked on large language model (LLM) safety under the mentorship of Cristian Canton Ferrer and Jianfeng Chi. I remain actively engaged in international research projects aimed at building more secure, transparent, and trustworthy AI systems.
 
-I am now based in Abu Dhabi as a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas in the Secure, Private, Open, and Trustworthy (SPOT) AI Lab.
+I am now based in Abu Dhabi as a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas at [SpotAI](https://nilslukas.github.io/group.html).

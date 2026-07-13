@@ -38,7 +38,7 @@ sections:
             </span>
             <div>
               <p class="panel-label">Currently</p>
-              <p class="panel-title">Postdoc, MBZUAI SPOT Lab</p>
+              <p class="panel-title">Postdoc, MBZUAI <a href="https://nilslukas.github.io/group.html" target="_blank" rel="noopener">SpotAI</a></p>
               <p class="panel-copy">Working on model behavior under fine-tuning, safety alignment under adaptation, and robust evidence for trustworthy AI.</p>
             </div>
             <div class="panel-highlight">
@@ -66,7 +66,7 @@ sections:
             <li><time>Feb 2026</time><span><a href="/event/mbzuai_sec_symposium_2602/">I gave a talk on safety degradation under benign model adaptation at the MBZUAI Symposium on Security in the Age of AI.</a></span></li>
             <li><time>Dec 2025</time><span><a href="/publication/2512-arxiv-authentic_multimedia_detection/">Robust and Calibrated Detection of Authentic Multimedia Content</a> is online on arXiv.</span></li>
             <li><time>Nov 2025</time><span><a href="/event/mbzuai_2511/">I gave a lecture on safety for text-to-image diffusion models at MBZUAI.</a></span></li>
-            <li><time>Jun 2025</time><span><a href="/post/postdoc-at-mbzuai/">I joined MBZUAI as a Postdoctoral Associate in the SPOT Lab.</a></span></li>
+            <li><time>Jun 2025</time><span><a href="/post/postdoc-at-mbzuai/">I joined MBZUAI as a Postdoctoral Associate</a> at <a href="https://nilslukas.github.io/group.html" target="_blank" rel="noopener">SpotAI</a>.</span></li>
             <li><time>May 2025</time><span><a href="/event/normale_pisa_2505/">I completed my PhD and gave a lecture on responsible generative AI at Scuola Normale Superiore.</a></span></li>
           </ul>
         </div>
