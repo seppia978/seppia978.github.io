@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Samuele Poppi</title><link>https://seppia978.github.io/</link><atom:link href="https://seppia978.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Samuele Poppi</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://seppia978.github.io/media/icon_hu16473461247518929159.png</url><title>Samuele Poppi</title><link>https://seppia978.github.io/</link></image><item><title>Research</title><link>https://seppia978.github.io/research/</link><pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/research/</guid><description/></item><item><title>A Gravitational Interpretation of Fine-Tuning Reversion</title><link>https://seppia978.github.io/publication/2606-arxiv-finetuning_reversion/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2606-arxiv-finetuning_reversion/</guid><description/></item><item><title>When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models</title><link>https://seppia978.github.io/publication/2606-arxiv-cot_knows_better/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2606-arxiv-cot_knows_better/</guid><description/></item><item><title>SPQR: A Multi-Dimensional Benchmark for Safety Alignment under Benign Model Adaptation</title><link>https://seppia978.github.io/publication/2511-eccv-spqr/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2511-eccv-spqr/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>Robust Safety Monitoring of Language Models via Activation Watermarking</title><link>https://seppia978.github.io/publication/2603-arxiv-activation_watermarking/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2603-arxiv-activation_watermarking/</guid><description/></item><item><title>Not All Attackers Are Malicious: When Safety Degrades Without Harmful Intent</title><link>https://seppia978.github.io/event/mbzuai_sec_symposium_2602/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/event/mbzuai_sec_symposium_2602/</guid><description>&lt;p>Slides from the talk are available below.&lt;/p></description></item><item><title>Improving LLM First-Token Predictions in Multiple-Choice Question Answering via Output Prefilling</title><link>https://seppia978.github.io/publication/2505-ftp_prefatt/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2505-ftp_prefatt/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>Robust and Calibrated Detection of Authentic Multimedia Content</title><link>https://seppia978.github.io/publication/2512-arxiv-authentic_multimedia_detection/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2512-arxiv-authentic_multimedia_detection/</guid><description/></item><item><title>Who Defines Safety for T2I Diffusion Models?</title><link>https://seppia978.github.io/event/mbzuai_2511/</link><pubDate>Thu, 20 Nov 2025 14:00:00 +0000</pubDate><guid>https://seppia978.github.io/event/mbzuai_2511/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.&lt;/span>
+&lt;/div>
+Slides can be added in a few ways: -->
+&lt;!-- - **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page. --></description></item><item><title>I joined MBZUAI as a Postdoctoral Associate</title><link>https://seppia978.github.io/post/postdoc-at-mbzuai/</link><pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/post/postdoc-at-mbzuai/</guid><description>&lt;p>Since June 16th, I have been a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), working with Dr. Nils Lukas in the Secure, Private, Open, and Trustworthy (SPOT) AI Lab.&lt;/p>
+&lt;p>The research environment at MBZUAI is highly stimulating and collaborative. The SPOT Lab brings together talented researchers passionate about advancing the security, privacy, and reliability of AI systems. Working with Dr. Lukas is both intellectually enriching and professionally motivating.&lt;/p>
+&lt;p>Beyond the academic setting, the university offers an exceptionally well-organized and efficient environment. Life in the UAE has also proven to be remarkably safe and convenient—features that make settling in both quick and pleasant.&lt;/p>
+&lt;p>Originally from Fiorano Modenese (Modena, Italy), I continue to cherish my Italian roots (and cuisine!) while embracing the vibrant and innovative atmosphere of Abu Dhabi.&lt;/p></description></item><item><title>Beyond the Papers</title><link>https://seppia978.github.io/post/intro/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/post/intro/</guid><description>&lt;p>I was born on January 17, 1994, and grew up in Fiorano Modenese, a small town in northern Italy known as the land of Ferrari—and not just because of nearby Maranello. Fiorano is home to Ferrari’s private test track, and some of my earliest memories are of my father taking me there to watch Michael Schumacher testing the scarlet Formula 1 cars. Since then, I have remained a lifelong Ferrari and Formula 1 enthusiast, through both the triumphs and the challenging seasons.&lt;/p>
+&lt;p>Beyond technology, I have always been deeply passionate about music and performance. I’m a drummer, guitarist, and singer, and I’ve performed as both a singer and actor in a small musical group in my hometown. I’ve always sought a balance between creativity and logic, which continues to guide how I approach both research and life.&lt;/p>
+&lt;p>I earned my B.Sc. and M.Sc. in Computer Engineering, followed by a Ph.D. (May 2025) jointly between the University of Pisa (UNIPI) and the University of Modena and Reggio Emilia (UNIMORE), where my work focused on safe and responsible artificial intelligence.&lt;/p>
+&lt;p>During my doctoral studies, I completed a research internship at Meta GenAI, where I worked on large language model (LLM) safety under the mentorship of Cristian Canton Ferrer and Jianfeng Chi. I remain actively engaged in international research projects aimed at building more secure, transparent, and trustworthy AI systems.&lt;/p>
+&lt;p>I am now based in Abu Dhabi as a Postdoctoral Associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), where I work with Dr. Nils Lukas in the Secure, Private, Open, and Trustworthy (SPOT) AI Lab.&lt;/p></description></item><item><title>Mitigating Watermark Forgery in Generative Models via Randomized Key Selection</title><link>https://seppia978.github.io/publication/2509-iclr-multi-k-wm/</link><pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2509-iclr-multi-k-wm/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>From Text to Vision: Ensuring Responsibility and Safety in Modern AI</title><link>https://seppia978.github.io/event/normale_pisa_2505/</link><pubDate>Tue, 27 May 2025 14:00:00 +0000</pubDate><guid>https://seppia978.github.io/event/normale_pisa_2505/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.&lt;/span>
+&lt;/div>
+Slides can be added in a few ways: -->
+&lt;!-- - **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Unlearning Vision Transformers without Retaining Data via Low-Rank Decompositions</title><link>https://seppia978.github.io/publication/2412-icpr-unlearning_lora/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2412-icpr-unlearning_lora/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>Towards Understanding the Fragility of Multilingual LLMs against Fine-Tuning Attacks</title><link>https://seppia978.github.io/publication/2504-fnaacl-sil_sir/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2504-fnaacl-sil_sir/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>Multiclass Unlearning for Image Classification via Weight Filtering</title><link>https://seppia978.github.io/publication/2406-ieee-multiclass_unlearning/</link><pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2406-ieee-multiclass_unlearning/</guid><description/></item><item><title>Projects</title><link>https://seppia978.github.io/projects/</link><pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/projects/</guid><description/></item><item><title>Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models</title><link>https://seppia978.github.io/publication/2409-eccv-safe_clip/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2409-eccv-safe_clip/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>Experience</title><link>https://seppia978.github.io/experience/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/experience/</guid><description/></item><item><title>Towards Explainable Navigation and Recounting</title><link>https://seppia978.github.io/publication/2309-iciap-explainable_navigation/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2309-iciap-explainable_navigation/</guid><description/></item><item><title>Unveiling the Impact of Image Transformations on Deepfake Detection: An Experimental Analysis</title><link>https://seppia978.github.io/publication/2309-iciap-deepfake/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2309-iciap-deepfake/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>Revisiting The Evaluation of Class Activation Mapping for Explainability: A Novel Metric and Experimental Analysis</title><link>https://seppia978.github.io/publication/2106-cvprw-adcc_xai/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://seppia978.github.io/publication/2106-cvprw-adcc_xai/</guid><description>&lt;!--
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span>
+&lt;/div>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.&lt;/span>
+&lt;/div> -->
+&lt;!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item></channel></rss>

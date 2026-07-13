@@ -32,7 +32,10 @@ sections:
             </div>
           </div>
           <aside class="current-panel" aria-label="Current status">
-            <img class="current-avatar" src="/author/samuele-poppi/avatar.jpg" alt="Samuele Poppi">
+            <span class="current-avatar-frame">
+              <img class="current-avatar" src="/author/samuele-poppi/avatar.jpg" alt="Samuele Poppi">
+              <img class="current-avatar-badge" src="/uploads/seppia-avatar-badge.png" alt="" aria-hidden="true">
+            </span>
             <div>
               <p class="panel-label">Currently</p>
               <p class="panel-title">Postdoc, MBZUAI SPOT Lab</p>
