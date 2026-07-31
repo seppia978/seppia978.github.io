@@ -23,3 +23,9 @@ The generated `public/` directory is a build artifact. Source content lives main
 - `content/publication/` for papers
 - `content/event/` for talks and lectures
 - `config/_default/` for site configuration and navigation
+
+## AI Safety Portfolio
+
+The dedicated AI Safety portfolio is bundled as a static export in
+`static/ai-safety/` and is published at `/ai-safety/`. The main navigation and
+homepage hero both link to it.
