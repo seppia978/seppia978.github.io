@@ -25,6 +25,7 @@ sections:
               <a href="/research/#threads">Forensics</a>
             </div>
             <div class="hero-actions">
+              <a href="/ai-safety/">AI Safety Portfolio</a>
               <a href="/uploads/resume.pdf">CV</a>
               <a href="https://scholar.google.com/citations?user=EBLQPgcAAAAJ&amp;hl=en">Scholar</a>
               <a href="https://github.com/seppia978">GitHub</a>
