@@ -65,7 +65,7 @@ sections:
             <a class="pinned-news-card" href="https://github.com/seppia978/DeadlineDeck" target="_blank" rel="noopener">
               <span class="pinned-news-kicker">Pinned Project</span>
               <span class="pinned-news-title">DeadlineDeck</span>
-              <span class="pinned-news-copy">A Scriptable widget for iPhone and iPad that tracks AI/ML and security conference deadlines, keeps an offline cache, and highlights urgent milestones.</span>
+              <span class="pinned-news-copy">A Scriptable widget for iPhone and iPad that keeps AI/ML and security conference deadlines visible at a glance.</span>
               <span class="pinned-news-cta">View on GitHub</span>
             </a>
             <ul class="latest-news-list">
