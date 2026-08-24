@@ -58,18 +58,28 @@ sections:
       subtitle: ''
       text: |-
         <div class="news-board">
-          <p class="latest-news-meta">Selected venues: ECCV x2 · ICPR x2 · NAACL Findings x1 · ICIAP x2 · IEEE Intelligent Systems x1 · CVPRW x1</p>
-          <ul class="latest-news-list">
-            <li><time>Jun 2026</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
-            <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Fine-Tuning Reversion</a> is online on arXiv.</span></li>
-            <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>
-            <li><time>Mar 2026</time><span><a href="/publication/2603-arxiv-activation_watermarking/">Robust Safety Monitoring of Language Models via Activation Watermarking</a> is online on arXiv.</span></li>
-            <li><time>Feb 2026</time><span><a href="/event/mbzuai_sec_symposium_2602/">I gave a talk on safety degradation under benign model adaptation at the MBZUAI Symposium on Security in the Age of AI.</a></span></li>
-            <li><time>Dec 2025</time><span><a href="/publication/2512-arxiv-authentic_multimedia_detection/">Robust and Calibrated Detection of Authentic Multimedia Content</a> is online on arXiv.</span></li>
-            <li><time>Nov 2025</time><span><a href="/event/mbzuai_2511/">I gave a lecture on safety for text-to-image diffusion models at MBZUAI.</a></span></li>
-            <li><time>Jun 2025</time><span><a href="/post/postdoc-at-mbzuai/">I joined MBZUAI as a Postdoctoral Associate</a> at <a href="https://nilslukas.github.io/group.html" target="_blank" rel="noopener">SpotAI</a>.</span></li>
-            <li><time>May 2025</time><span><a href="/event/normale_pisa_2505/">I completed my PhD and gave a lecture on responsible generative AI at Scuola Normale Superiore.</a></span></li>
-          </ul>
+          <div class="latest-news-aside">
+            <p class="latest-news-meta">Selected venues: ECCV x2 · ICPR x2 · NAACL Findings x1 · ICIAP x2 · IEEE Intelligent Systems x1 · CVPRW x1</p>
+          </div>
+          <div class="latest-news-main">
+            <a class="pinned-news-card" href="https://github.com/seppia978/DeadlineDeck" target="_blank" rel="noopener">
+              <span class="pinned-news-kicker">Pinned Project</span>
+              <span class="pinned-news-title">DeadlineDeck</span>
+              <span class="pinned-news-copy">A Scriptable widget for iPhone and iPad that tracks AI/ML and security conference deadlines, keeps an offline cache, and highlights urgent milestones.</span>
+              <span class="pinned-news-cta">View on GitHub</span>
+            </a>
+            <ul class="latest-news-list">
+              <li><time>Jun 2026</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
+              <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Fine-Tuning Reversion</a> is online on arXiv.</span></li>
+              <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>
+              <li><time>Mar 2026</time><span><a href="/publication/2603-arxiv-activation_watermarking/">Robust Safety Monitoring of Language Models via Activation Watermarking</a> is online on arXiv.</span></li>
+              <li><time>Feb 2026</time><span><a href="/event/mbzuai_sec_symposium_2602/">I gave a talk on safety degradation under benign model adaptation at the MBZUAI Symposium on Security in the Age of AI.</a></span></li>
+              <li><time>Dec 2025</time><span><a href="/publication/2512-arxiv-authentic_multimedia_detection/">Robust and Calibrated Detection of Authentic Multimedia Content</a> is online on arXiv.</span></li>
+              <li><time>Nov 2025</time><span><a href="/event/mbzuai_2511/">I gave a lecture on safety for text-to-image diffusion models at MBZUAI.</a></span></li>
+              <li><time>Jun 2025</time><span><a href="/post/postdoc-at-mbzuai/">I joined MBZUAI as a Postdoctoral Associate</a> at <a href="https://nilslukas.github.io/group.html" target="_blank" rel="noopener">SpotAI</a>.</span></li>
+              <li><time>May 2025</time><span><a href="/event/normale_pisa_2505/">I completed my PhD and gave a lecture on responsible generative AI at Scuola Normale Superiore.</a></span></li>
+            </ul>
+          </div>
         </div>
     design:
       columns: '1'
