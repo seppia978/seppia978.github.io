@@ -59,7 +59,7 @@ sections:
       text: |-
         <div class="news-board">
           <div class="latest-news-aside">
-            <p class="latest-news-meta">Selected venues: ECCV x2 · ICPR x2 · NAACL Findings x1 · ICIAP x2 · IEEE Intelligent Systems x1 · CVPRW x1</p>
+            <p class="latest-news-meta">Selected venues: EMNLP x1 · ECCV x2 · ICPR x2 · NAACL Findings x1 · ICIAP x2 · IEEE Intelligent Systems x1 · CVPRW x1</p>
           </div>
           <div class="latest-news-main">
             <a class="pinned-news-card" href="https://github.com/seppia978/DeadlineDeck" target="_blank" rel="noopener">
@@ -69,6 +69,7 @@ sections:
               <span class="pinned-news-cta">View on GitHub</span>
             </a>
             <ul class="latest-news-list">
+              <li><time>Aug 2026</time><span><a href="/publication/2608-emnlp-copyshield/">CopyShield</a> accepted at EMNLP 2026.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Fine-Tuning Reversion</a> is online on arXiv.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>
