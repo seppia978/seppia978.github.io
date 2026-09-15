@@ -1380,8 +1380,12 @@ html.dark .page-body article.w-full .prose a {
   }
 
   #site-header .navbar-brand {
+    display: inline-flex;
+    align-items: center;
     flex: 1 1 auto;
     min-width: 0;
+    max-width: 100%;
+    white-space: nowrap;
   }
 
   #site-header .navbar > .order-1 {
@@ -1452,10 +1456,6 @@ html.dark .page-body article.w-full .prose a {
     margin-top: 0.75rem;
     padding: 0.75rem 0 0.9rem !important;
     border-top: 1px solid var(--sp-line);
-  }
-
-  .navbar-brand::after {
-    display: none;
   }
 
   .editorial-hero-section {
