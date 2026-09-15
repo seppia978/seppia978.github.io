@@ -512,6 +512,30 @@ html.dark .current-panel {
   height: clamp(4.2rem, 5.4vw, 4.725rem);
 }
 
+.views-badge {
+  display: inline-flex;
+  width: max-content;
+  margin-top: -0.25rem;
+  border-radius: 4px;
+  line-height: 0;
+  overflow: hidden;
+  text-decoration: none !important;
+  box-shadow: 0 8px 18px rgba(20, 23, 26, 0.08);
+}
+
+.views-badge img {
+  display: block;
+  width: auto;
+  height: 20px;
+  margin: 0;
+  border: 0;
+}
+
+.views-badge:focus-visible {
+  outline: 3px solid rgba(13, 148, 136, 0.32);
+  outline-offset: 3px;
+}
+
 .media-lightbox {
   display: none;
   position: fixed;

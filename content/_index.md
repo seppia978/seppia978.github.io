@@ -50,6 +50,9 @@ sections:
               <span>Latest</span>
               <a href="/publication/2511-eccv-spqr/">SPQR accepted at ECCV 2026</a>
             </div>
+            <a class="views-badge" href="https://hits.sh/seppia978.github.io/" target="_blank" rel="noopener" aria-label="View site traffic statistics">
+              <img src="https://hits.sh/seppia978.github.io.svg?view=total&amp;style=flat-square&amp;label=Views&amp;color=0d9488&amp;labelColor=14171a" alt="Site views" referrerpolicy="no-referrer" decoding="async">
+            </a>
           </aside>
         </div>
         <div id="profile-photo-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Samuele Poppi photo preview">
