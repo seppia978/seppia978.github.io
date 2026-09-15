@@ -514,6 +514,7 @@ html.dark .current-panel {
 
 .views-badge {
   display: inline-flex;
+  justify-self: end;
   width: max-content;
   margin-top: -0.25rem;
   border-radius: 4px;
