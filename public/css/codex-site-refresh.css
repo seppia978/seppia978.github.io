@@ -521,7 +521,8 @@ html.dark .current-panel {
   padding: clamp(1rem, 4vw, 3rem);
 }
 
-.media-lightbox:target {
+.media-lightbox:target,
+.media-lightbox.is-open {
   display: grid;
 }
 

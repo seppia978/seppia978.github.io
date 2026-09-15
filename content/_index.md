@@ -52,22 +52,23 @@ sections:
             </div>
           </aside>
         </div>
-        <div id="profile-photo-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-label="Samuele Poppi photo preview">
-          <a class="media-lightbox-backdrop" href="#about" aria-label="Close photo preview"></a>
+        <div id="profile-photo-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Samuele Poppi photo preview">
+          <a class="media-lightbox-backdrop" href="#!" aria-label="Close photo preview"></a>
           <figure class="media-lightbox-card">
             <img class="media-lightbox-image" src="/uploads/samuele-poppi-photo-lightbox.jpg" alt="Samuele Poppi">
             <figcaption>Samuele Poppi</figcaption>
-            <a class="media-lightbox-close" href="#about" aria-label="Close photo preview">&times;</a>
+            <a class="media-lightbox-close" href="#!" aria-label="Close photo preview">&times;</a>
           </figure>
         </div>
-        <div id="seppia-avatar-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-label="Seppia avatar preview">
-          <a class="media-lightbox-backdrop" href="#about" aria-label="Close seppia avatar preview"></a>
+        <div id="seppia-avatar-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Seppia avatar preview">
+          <a class="media-lightbox-backdrop" href="#!" aria-label="Close seppia avatar preview"></a>
           <figure class="media-lightbox-card">
             <img class="media-lightbox-image media-lightbox-image-squid" src="/uploads/seppia-avatar-lightbox.png" alt="Seppia avatar">
             <figcaption>Seppia</figcaption>
-            <a class="media-lightbox-close" href="#about" aria-label="Close seppia avatar preview">&times;</a>
+            <a class="media-lightbox-close" href="#!" aria-label="Close seppia avatar preview">&times;</a>
           </figure>
         </div>
+        <script src="/js/media-lightbox.js" defer></script>
     design:
       columns: '1'
       css_class: editorial-hero-section
