@@ -34,8 +34,12 @@ sections:
           </div>
           <aside class="current-panel" aria-label="Current status">
             <span class="current-avatar-frame">
-              <img class="current-avatar" src="/author/samuele-poppi/avatar.jpg" alt="Samuele Poppi">
-              <img class="current-avatar-badge" src="/uploads/seppia-avatar-badge.png" alt="" aria-hidden="true">
+              <a class="current-avatar-link" href="#profile-photo-lightbox" aria-label="View Samuele Poppi photo">
+                <img class="current-avatar" src="/author/samuele-poppi/avatar.jpg" alt="Samuele Poppi">
+              </a>
+              <a class="current-avatar-badge-link" href="#seppia-avatar-lightbox" aria-label="View seppia avatar">
+                <img class="current-avatar-badge" src="/uploads/seppia-avatar-badge.png" alt="" aria-hidden="true">
+              </a>
             </span>
             <div>
               <p class="panel-label">Currently</p>
@@ -47,6 +51,22 @@ sections:
               <a href="/publication/2511-eccv-spqr/">SPQR accepted at ECCV 2026</a>
             </div>
           </aside>
+        </div>
+        <div id="profile-photo-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-label="Samuele Poppi photo preview">
+          <a class="media-lightbox-backdrop" href="#about" aria-label="Close photo preview"></a>
+          <figure class="media-lightbox-card">
+            <img class="media-lightbox-image" src="/uploads/samuele-poppi-photo-lightbox.jpg" alt="Samuele Poppi">
+            <figcaption>Samuele Poppi</figcaption>
+            <a class="media-lightbox-close" href="#about" aria-label="Close photo preview">&times;</a>
+          </figure>
+        </div>
+        <div id="seppia-avatar-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-label="Seppia avatar preview">
+          <a class="media-lightbox-backdrop" href="#about" aria-label="Close seppia avatar preview"></a>
+          <figure class="media-lightbox-card">
+            <img class="media-lightbox-image media-lightbox-image-squid" src="/uploads/seppia-avatar-lightbox.png" alt="Seppia avatar">
+            <figcaption>Seppia</figcaption>
+            <a class="media-lightbox-close" href="#about" aria-label="Close seppia avatar preview">&times;</a>
+          </figure>
         </div>
     design:
       columns: '1'

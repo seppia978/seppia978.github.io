@@ -118,6 +118,7 @@ html.dark .navbar-brand::after {
   color: var(--sp-muted) !important;
   font-size: 0.88rem;
   font-weight: 700;
+  line-height: 1.1;
 }
 
 .navbar-nav .nav-link:hover,
@@ -145,6 +146,37 @@ html.dark .navbar-brand::after {
 
 .theme-toggle {
   margin-top: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  #site-header .navbar {
+    gap: clamp(0.7rem, 1vw, 1.2rem);
+    padding-left: clamp(1.5rem, 2.2vw, 2rem) !important;
+    padding-right: clamp(1.5rem, 2.2vw, 2rem) !important;
+  }
+
+  #site-header #nav-menu {
+    gap: clamp(0.16rem, 0.36vw, 0.42rem);
+    margin-left: clamp(0.75rem, 1vw, 1rem) !important;
+    margin-right: clamp(0.75rem, 1vw, 1rem) !important;
+  }
+
+  #site-header #nav-menu > :not([hidden]) ~ :not([hidden]) {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar-nav .nav-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.38rem 0.42rem !important;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  #site-header .navbar > .order-1 {
+    margin-left: 0 !important;
+  }
 }
 
 .page-body {
@@ -241,6 +273,16 @@ html.dark .navbar-brand::after {
   padding-bottom: 3.25rem !important;
 }
 
+@media (min-width: 1025px) {
+  .editorial-hero-section {
+    padding-top: 1.75rem !important;
+  }
+}
+
+.editorial-hero-section .mb-6.text-3xl:empty {
+  display: none;
+}
+
 .editorial-hero-section .prose {
   max-width: var(--sp-container) !important;
   width: 100%;
@@ -260,6 +302,12 @@ html.dark .navbar-brand::after {
 
 .editorial-hero-main {
   padding-top: clamp(1rem, 4vw, 3rem);
+}
+
+@media (min-width: 1025px) {
+  .editorial-hero-main {
+    padding-top: 0.35rem;
+  }
 }
 
 .eyebrow {
@@ -401,7 +449,7 @@ html.dark .venue-chip {
 
 @media (min-width: 1025px) {
   .current-panel {
-    margin-top: clamp(4.75rem, 7.5vw, 6.25rem);
+    margin-top: clamp(2.25rem, 4vw, 3.35rem);
   }
 }
 
@@ -415,7 +463,25 @@ html.dark .current-panel {
   width: max-content;
 }
 
+.current-avatar-link,
+.current-avatar-badge-link {
+  border-radius: 50%;
+  cursor: zoom-in;
+  outline: none;
+}
+
+.current-avatar-link {
+  display: block;
+  width: max-content;
+}
+
+.current-avatar-link:focus-visible,
+.current-avatar-badge-link:focus-visible {
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.28);
+}
+
 .current-avatar {
+  display: block;
   width: clamp(13.125rem, 18vw, 14.625rem);
   height: clamp(13.125rem, 18vw, 14.625rem);
   margin: 0;
@@ -426,17 +492,106 @@ html.dark .current-panel {
 }
 
 .current-avatar-badge {
-  position: absolute;
-  right: 0.1rem;
-  bottom: 0.1rem;
-  width: clamp(4.2rem, 5.4vw, 4.725rem);
-  height: clamp(4.2rem, 5.4vw, 4.725rem);
+  display: block;
+  width: 100%;
+  height: 100%;
   margin: 0;
   border: 2px solid var(--sp-surface);
   border-radius: 50%;
   background: #10191c;
   object-fit: cover;
   box-shadow: 0 8px 18px rgba(20, 23, 26, 0.2);
+}
+
+.current-avatar-badge-link {
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.1rem;
+  display: block;
+  width: clamp(4.2rem, 5.4vw, 4.725rem);
+  height: clamp(4.2rem, 5.4vw, 4.725rem);
+}
+
+.media-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  place-items: center;
+  padding: clamp(1rem, 4vw, 3rem);
+}
+
+.media-lightbox:target {
+  display: grid;
+}
+
+.media-lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 20, 24, 0.58);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.media-lightbox-card {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.media-lightbox-image {
+  display: block;
+  width: auto;
+  max-width: min(82vw, 34rem);
+  max-height: min(82vh, 34rem);
+  margin: 0;
+  border: 2px solid rgba(255, 255, 255, 0.78);
+  border-radius: 18px;
+  object-fit: contain;
+  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.38);
+}
+
+.media-lightbox-image-squid {
+  max-width: min(68vw, 24rem);
+  max-height: min(68vh, 24rem);
+  border-radius: 50%;
+  background: #10191c;
+}
+
+.media-lightbox-card figcaption {
+  margin: 0;
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.45);
+}
+
+.media-lightbox-close {
+  position: absolute;
+  top: -0.75rem;
+  right: -0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: #14171a;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.28);
+}
+
+.media-lightbox-close:focus-visible {
+  outline: 3px solid rgba(94, 234, 212, 0.7);
+  outline-offset: 3px;
 }
 
 .panel-label {
