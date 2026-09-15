@@ -1331,9 +1331,18 @@ html.dark .page-body article.w-full .prose a {
 }
 
 @media (max-width: 1024px) {
+  .editorial-hero-section {
+    padding-top: 1.6rem !important;
+    padding-bottom: 2.75rem !important;
+  }
+
   .editorial-hero {
     grid-template-columns: 1fr;
     align-items: start;
+  }
+
+  .editorial-hero-main {
+    padding-top: 0 !important;
   }
 
   .current-panel {
@@ -1431,7 +1440,7 @@ html.dark .page-body article.w-full .prose a {
   }
 
   .editorial-hero-section {
-    padding-top: 3.5rem !important;
+    padding-top: 1rem !important;
   }
 
   .editorial-hero-section .flex.flex-col.items-center.max-w-prose {
