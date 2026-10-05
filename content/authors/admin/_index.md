@@ -40,7 +40,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/seppia978
   - icon: brands/linkedin
-    url: https://www.linkedin.com/samuele-poppi
+    url: https://www.linkedin.com/in/samuele-poppi/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=EBLQPgcAAAAJ&hl=en
   - icon: academicons/orcid

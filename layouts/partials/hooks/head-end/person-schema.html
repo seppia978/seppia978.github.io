@@ -1,0 +1,34 @@
+{{- /* Person structured data for the Entity Home (homepage only). Keep sameAs in sync with Wikidata Q141645108. */ -}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://seppia978.github.io/#person",
+  "name": "Samuele Poppi",
+  "givenName": "Samuele",
+  "familyName": "Poppi",
+  "url": "https://seppia978.github.io/",
+  "image": "https://seppia978.github.io/uploads/samuele-poppi-photo-lightbox.jpg",
+  "jobTitle": "Postdoctoral Associate in AI Safety",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+    "url": "https://mbzuai.ac.ae/"
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "University of Pisa" },
+    { "@type": "CollegeOrUniversity", "name": "University of Modena and Reggio Emilia" }
+  ],
+  "knowsAbout": ["AI safety", "Large language models", "Multimodal models", "Machine unlearning", "Watermarking", "Deepfakes"],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q141645108",
+    "https://scholar.google.com/citations?user=EBLQPgcAAAAJ",
+    "https://orcid.org/0000-0002-8428-501X",
+    "https://www.linkedin.com/in/samuele-poppi/",
+    "https://github.com/seppia978",
+    "https://x.com/seppia978"
+  ]
+}
+</script>
+{{- end }}
