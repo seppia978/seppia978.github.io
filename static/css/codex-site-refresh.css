@@ -1758,8 +1758,10 @@ html.dark .hero-timeline li.is-current .tl-when {
 }
 
 @media (max-width: 760px) {
+  /* newest on top on phones */
   .hero-timeline ol {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
     gap: 1.1rem;
   }
 
@@ -1770,7 +1772,7 @@ html.dark .hero-timeline li.is-current .tl-when {
     right: auto;
     width: 2px;
     height: auto;
-    background: linear-gradient(180deg, var(--sp-line-strong), var(--sp-teal));
+    background: linear-gradient(180deg, var(--sp-teal), var(--sp-line-strong));
   }
 
   .hero-timeline li {
