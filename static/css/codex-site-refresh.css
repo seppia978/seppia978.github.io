@@ -1237,6 +1237,7 @@ html.dark .publication-stage-heading span {
 
 .featured-image-wrapper {
   max-width: 100% !important;
+  max-height: none !important;
   margin: 1.5rem 0 2.2rem !important;
   overflow: hidden;
   border: 1px solid var(--sp-line);
@@ -1596,4 +1597,18 @@ html.dark .page-body article.w-full .prose a {
   color: #ffd98a;
   background: rgba(232, 199, 122, 0.15);
   border-color: rgba(232, 199, 122, 0.45);
+}
+
+/* Single pages (publications, talks, posts): on wide screens the theme
+   reserves a docs sidebar and a TOC column (256px each) even when they
+   have nothing to show, squeezing the content into a mobile-width column.
+   The sidebar only holds the mobile menu (lg:hidden), so drop both on
+   desktop when they are empty. */
+.hb-toc:not(:has(a)) {
+  display: none !important;
+}
+@media (min-width: 1024px) {
+  .hb-sidebar-container:not(:has(> .hb-scrollbar > ul:not(.lg\:hidden))) {
+    display: none !important;
+  }
 }
