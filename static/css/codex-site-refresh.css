@@ -1612,3 +1612,186 @@ html.dark .page-body article.w-full .prose a {
     display: none !important;
   }
 }
+
+/* Homepage career timeline (between hero buttons and Latest News).
+   Horizontal on laptop/desktop, vertical on narrow screens. */
+.hero-timeline {
+  margin-top: 2.6rem;
+  padding: 1.15rem 1.25rem 1.3rem;
+  border: 1px solid var(--sp-line);
+  border-radius: var(--sp-radius);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+html.dark .hero-timeline {
+  background: rgba(21, 27, 32, 0.6);
+}
+
+.hero-timeline-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.hero-timeline-head span {
+  color: var(--sp-teal-dark);
+  font-size: 0.74rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+html.dark .hero-timeline-head span {
+  color: var(--sp-teal);
+}
+
+.hero-timeline-head a {
+  color: var(--sp-muted) !important;
+  font-size: 0.82rem;
+  font-weight: 750;
+  text-decoration: none !important;
+}
+
+.hero-timeline-head a:hover {
+  color: var(--sp-ink) !important;
+}
+
+.hero-timeline ol {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+
+/* the connecting line, drawn through the logo row */
+.hero-timeline ol::before {
+  content: "";
+  position: absolute;
+  top: 1.625rem;
+  left: 1.625rem;
+  right: 1.625rem;
+  height: 2px;
+  background: linear-gradient(90deg, var(--sp-line-strong), var(--sp-teal));
+  opacity: 0.7;
+}
+
+.hero-timeline li {
+  position: relative;
+  display: grid;
+  gap: 0.18rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.hero-timeline li::marker {
+  content: none;
+}
+
+.tl-logos {
+  display: flex;
+  align-items: center;
+  height: 3.25rem;
+  margin-bottom: 0.65rem;
+}
+
+.tl-logos img {
+  width: 3.25rem;
+  height: 3.25rem;
+  margin: 0 !important;
+  padding: 0.12rem;
+  border: 1px solid var(--sp-line);
+  border-radius: 50%;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: 0 0 0 4px var(--sp-bg);
+}
+
+.tl-logos img + img {
+  margin-left: -0.7rem !important;
+}
+
+.tl-logos img.tl-logo-meta {
+  padding: 0.55rem;
+}
+
+.tl-logos img.tl-logo-fill {
+  padding: 0;
+}
+
+.hero-timeline li.is-current .tl-logos img {
+  border-color: var(--sp-teal);
+  box-shadow: 0 0 0 4px var(--sp-bg), 0 0 0 6px rgba(13, 148, 136, 0.25);
+}
+
+.tl-when {
+  color: var(--sp-muted);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.hero-timeline li.is-current .tl-when {
+  color: var(--sp-teal-dark);
+}
+
+html.dark .hero-timeline li.is-current .tl-when {
+  color: var(--sp-teal);
+}
+
+.tl-what {
+  color: var(--sp-ink);
+  font-size: 0.95rem;
+  font-weight: 850;
+  line-height: 1.25;
+}
+
+.tl-where {
+  color: var(--sp-muted);
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 760px) {
+  .hero-timeline ol {
+    grid-template-columns: 1fr;
+    gap: 1.1rem;
+  }
+
+  .hero-timeline ol::before {
+    top: 1.625rem;
+    bottom: 1.625rem;
+    left: 1.625rem;
+    right: auto;
+    width: 2px;
+    height: auto;
+    background: linear-gradient(180deg, var(--sp-line-strong), var(--sp-teal));
+  }
+
+  .hero-timeline li {
+    grid-template-columns: 4.6rem minmax(0, 1fr);
+    column-gap: 0.6rem;
+    align-items: start;
+  }
+
+  .tl-logos {
+    grid-row: 1 / span 3;
+    margin-bottom: 0;
+  }
+
+  .tl-logos img + img {
+    margin-left: -1.6rem !important;
+    margin-top: 1.1rem !important;
+  }
+}
+
+.panel-highlight .pub-highlight {
+  font-size: 0.62rem;
+  margin-left: 0.25rem;
+  vertical-align: 0.25em;
+}

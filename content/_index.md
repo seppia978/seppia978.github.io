@@ -48,13 +48,45 @@ sections:
             </div>
             <div class="panel-highlight">
               <span>Latest</span>
-              <a href="/publication/2511-eccv-spqr/">SPQR accepted at ECCV 2026</a>
+              <a href="/publication/2608-emnlp-copyshield/">CopyShield accepted at EMNLP 2026 <strong class="pub-highlight">Oral</strong></a>
             </div>
             <a class="views-badge" href="https://hits.sh/seppia978.github.io/" target="_blank" rel="noopener" aria-label="View site traffic statistics">
               <img src="https://hits.sh/seppia978.github.io.svg?view=total&amp;style=flat-square&amp;label=Views&amp;color=0d9488&amp;labelColor=14171a" alt="Site views" referrerpolicy="no-referrer" decoding="async">
             </a>
           </aside>
         </div>
+        <nav class="hero-timeline" aria-label="Career timeline">
+          <div class="hero-timeline-head">
+            <span>Path so far</span>
+            <a href="/experience/">Full experience &rarr;</a>
+          </div>
+          <ol>
+            <li>
+              <span class="tl-logos"><img src="/uploads/logos/unimore.png" alt="University of Modena and Reggio Emilia"></span>
+              <span class="tl-when">2017 &ndash; 2021</span>
+              <span class="tl-what">MSc Computer Engineering</span>
+              <span class="tl-where">University of Modena &amp; Reggio Emilia</span>
+            </li>
+            <li>
+              <span class="tl-logos"><img src="/uploads/logos/unipi.png" alt="University of Pisa"><img src="/uploads/logos/unimore.png" alt="University of Modena and Reggio Emilia"></span>
+              <span class="tl-when">2021 &ndash; 2025</span>
+              <span class="tl-what">PhD in Artificial Intelligence</span>
+              <span class="tl-where">University of Pisa &amp; UNIMORE</span>
+            </li>
+            <li>
+              <span class="tl-logos"><img class="tl-logo-meta" src="/uploads/logos/meta.svg" alt="Meta"></span>
+              <span class="tl-when">2024</span>
+              <span class="tl-what">Research Scientist Intern</span>
+              <span class="tl-where">Meta GenAI &middot; Menlo Park</span>
+            </li>
+            <li class="is-current">
+              <span class="tl-logos"><img class="tl-logo-fill" src="/uploads/logos/mbzuai.png" alt="MBZUAI"></span>
+              <span class="tl-when">2025 &ndash; now</span>
+              <span class="tl-what">Postdoctoral Associate</span>
+              <span class="tl-where">MBZUAI &middot; SpotAI Lab</span>
+            </li>
+          </ol>
+        </nav>
         <div id="profile-photo-lightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Samuele Poppi photo preview">
           <a class="media-lightbox-backdrop" href="#!" aria-label="Close photo preview"></a>
           <figure class="media-lightbox-card">
