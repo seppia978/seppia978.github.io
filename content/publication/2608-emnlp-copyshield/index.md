@@ -21,6 +21,7 @@ publication_types: ['paper-conference']
 
 publication: In *Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*
 publication_short: In *EMNLP 2026*
+highlight: Oral
 abstract: |
   CopyShield is a cross-level benchmark for evaluating copyright compliance and defenses in large language models. It compares model behavior and defense mechanisms across levels of intervention, helping assess where current safeguards hold and where they remain fragile.
 

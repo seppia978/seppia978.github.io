@@ -1576,3 +1576,24 @@ html.dark .page-body article.w-full .prose a {
     display: grid;
   }
 }
+
+/* Oral / award highlight in publication list */
+.pub-highlight {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6b4300;
+  background: #ffe7a8;
+  border: 1px solid #d9a93a;
+  vertical-align: 0.08em;
+}
+.dark .pub-highlight {
+  color: #ffd98a;
+  background: rgba(232, 199, 122, 0.15);
+  border-color: rgba(232, 199, 122, 0.45);
+}

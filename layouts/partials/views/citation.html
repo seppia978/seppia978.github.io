@@ -23,6 +23,8 @@
     {{ $year }}.
   {{ end }}
 
+  {{ with $item.Params.highlight }}<strong class="pub-highlight">{{ . }}</strong>{{ end }}
+
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
@@ -45,6 +47,8 @@
   {{ else }}
     {{ $year }}.
   {{ end }}
+
+  {{ with $item.Params.highlight }}<strong class="pub-highlight">{{ . }}</strong>{{ end }}
 
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3">

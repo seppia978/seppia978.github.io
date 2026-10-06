@@ -93,7 +93,7 @@ sections:
               <span class="pinned-news-cta">View on GitHub</span>
             </a>
             <ul class="latest-news-list">
-              <li><time>Aug 2026</time><span><a href="/publication/2608-emnlp-copyshield/">CopyShield</a> accepted at EMNLP 2026.</span></li>
+              <li><time>Aug 2026</time><span><a href="/publication/2608-emnlp-copyshield/">CopyShield</a> accepted at EMNLP 2026 as an <strong>Oral</strong>.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Fine-Tuning Reversion</a> is online on arXiv.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>

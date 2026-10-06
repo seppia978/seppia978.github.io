@@ -30,6 +30,7 @@ publication_types: ['paper-conference']
 # Publication name and optional abbreviated publication name.
 publication: In * IEEE / CVF Computer Vision and Pattern Recognition Conference Workshops*
 publication_short: In *CVPRW*
+highlight: Oral
 abstract: As the request for deep learning solutions increases, the need for explainability is even more fundamental. In this setting, particular attention has been given to visualization techniques, that try to attribute the right relevance to each input pixel with respect to the output of the network. In this paper, we focus on Class Activation Mapping (CAM) approaches, which provide an effective visualization by taking weighted averages of the activation maps. To enhance the evaluation and the reproducibility of such approaches, we propose a novel set of metrics to quantify explanation maps, which show better effectiveness and simplify comparisons between approaches. To evaluate the appropriateness of the proposal, we compare different CAM-based visualization methods on the entire ImageNet validation set, fostering proper comparisons and reproducibility.
 
 summary: A reproducibility-focused evaluation metric for Class Activation Mapping methods in computer vision.
