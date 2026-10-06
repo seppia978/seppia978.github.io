@@ -35,6 +35,8 @@ tags:
 
 featured: false
 
+url_pdf: 'https://arxiv.org/pdf/2609.01161'
+
 image:
   caption: ''
   focal_point: ''

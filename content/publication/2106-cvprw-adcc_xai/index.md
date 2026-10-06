@@ -48,7 +48,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'Poppi_Revisiting_the_Evaluation_of_Class_Activation_Mapping_for_Explainability_A_CVPRW_2021_paper.pdf'
+url_pdf: '/publication/2106-cvprw-adcc_xai/Poppi_Revisiting_the_Evaluation_of_Class_Activation_Mapping_for_Explainability_A_CVPRW_2021_paper.pdf'
 # url_code: 'https://github.com/aimagelab/safe-clip'
 # url_dataset: 'https://huggingface.co/datasets/aimagelab/ViSU-Text'
 # url_poster: ''
