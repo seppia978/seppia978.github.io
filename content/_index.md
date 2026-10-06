@@ -95,7 +95,7 @@ sections:
             <ul class="latest-news-list">
               <li><time>Aug 2026</time><span><a href="/publication/2608-emnlp-copyshield/">CopyShield</a> accepted at EMNLP 2026 as an <strong>Oral</strong>.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2511-eccv-spqr/">SPQR</a> accepted at ECCV 2026.</span></li>
-              <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Fine-Tuning Reversion</a> is online on arXiv.</span></li>
+              <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-finetuning_reversion/">A Gravitational Interpretation of Safety Reversion under Fine-Tuning</a> is online on arXiv.</span></li>
               <li><time>Jun 2026</time><span><a href="/publication/2606-arxiv-cot_knows_better/">When the Chain of Thought Knows Better</a> is online on arXiv.</span></li>
               <li><time>Mar 2026</time><span><a href="/publication/2603-arxiv-activation_watermarking/">Robust Safety Monitoring of Language Models via Activation Watermarking</a> is online on arXiv.</span></li>
               <li><time>Feb 2026</time><span><a href="/event/mbzuai_sec_symposium_2602/">I gave a talk on safety degradation under benign model adaptation at the MBZUAI Symposium on Security in the Age of AI.</a></span></li>
